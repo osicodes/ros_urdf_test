@@ -1,0 +1,54 @@
+[0.906s] Invoking command in '/home/osinachi/foxy_ws/build/test_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/osinachi/foxy_ws/src/test_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/test_urdf
+[4.520s] -- The C compiler identification is GNU 9.4.0
+[8.248s] -- The CXX compiler identification is GNU 9.4.0
+[8.908s] -- Check for working C compiler: /usr/bin/cc
+[9.586s] -- Check for working C compiler: /usr/bin/cc -- works
+[9.591s] -- Detecting C compiler ABI info
+[10.347s] -- Detecting C compiler ABI info - done
+[10.411s] -- Detecting C compile features
+[10.429s] -- Detecting C compile features - done
+[10.439s] -- Check for working CXX compiler: /usr/bin/c++
+[11.416s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[11.444s] -- Detecting CXX compiler ABI info
+[12.692s] -- Detecting CXX compiler ABI info - done
+[12.731s] -- Detecting CXX compile features
+[12.732s] -- Detecting CXX compile features - done
+[12.781s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[12.859s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[12.859s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.519s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[13.589s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.858s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.872s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.880s] -- Added test 'lint_cmake' to check CMake code style
+[13.884s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[13.889s] -- Added test 'xmllint' to check XML markup files
+[13.907s] -- Configuring done
+[13.925s] -- Generating done
+[13.929s] -- Build files have been written to: /home/osinachi/foxy_ws/build/test_urdf
+[13.944s] Invoked command in '/home/osinachi/foxy_ws/build/test_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/osinachi/foxy_ws/src/test_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/test_urdf
+[13.953s] Invoking command in '/home/osinachi/foxy_ws/build/test_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/osinachi/foxy_ws/build/test_urdf -- -j4 -l4
+[14.056s] Invoked command in '/home/osinachi/foxy_ws/build/test_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/osinachi/foxy_ws/build/test_urdf -- -j4 -l4
+[14.170s] Invoking command in '/home/osinachi/foxy_ws/build/test_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/osinachi/foxy_ws/build/test_urdf
+[14.205s] -- Install configuration: ""
+[14.206s] -- Execute custom install script
+[14.213s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/description/example_include.xacro
+[14.242s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/description/example_robot.urdf.xacro
+[14.273s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/launch/rsp.launch.py
+[14.305s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/launch/rsp_sim.launch.py
+[14.334s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/ament_index/resource_index/package_run_dependencies/test_urdf
+[14.357s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/ament_index/resource_index/parent_prefix_path/test_urdf
+[14.383s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/ament_prefix_path.sh
+[14.408s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/ament_prefix_path.dsv
+[14.433s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/path.sh
+[14.458s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/path.dsv
+[14.487s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.bash
+[14.514s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.sh
+[14.539s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.zsh
+[14.564s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.dsv
+[14.608s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.dsv
+[14.641s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/ament_index/resource_index/packages/test_urdf
+[14.679s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/cmake/test_urdfConfig.cmake
+[14.715s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/cmake/test_urdfConfig-version.cmake
+[14.743s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.xml
+[14.785s] Invoked command in '/home/osinachi/foxy_ws/build/test_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/osinachi/foxy_ws/build/test_urdf

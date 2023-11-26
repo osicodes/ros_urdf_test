@@ -1,0 +1,9 @@
+/home/osinachi/foxy_ws/build/test_urdf/CMakeFiles/install/strip.dir
+/home/osinachi/foxy_ws/build/test_urdf/CMakeFiles/install/local.dir
+/home/osinachi/foxy_ws/build/test_urdf/CMakeFiles/install.dir
+/home/osinachi/foxy_ws/build/test_urdf/CMakeFiles/list_install_components.dir
+/home/osinachi/foxy_ws/build/test_urdf/CMakeFiles/rebuild_cache.dir
+/home/osinachi/foxy_ws/build/test_urdf/CMakeFiles/edit_cache.dir
+/home/osinachi/foxy_ws/build/test_urdf/CMakeFiles/test.dir
+/home/osinachi/foxy_ws/build/test_urdf/CMakeFiles/test_urdf_uninstall.dir
+/home/osinachi/foxy_ws/build/test_urdf/CMakeFiles/uninstall.dir

@@ -1,0 +1,268 @@
+[0.000000] (-) TimerEvent: {}
+[0.001938] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.002710] (test_urdf) JobQueued: {'identifier': 'test_urdf', 'dependencies': OrderedDict()}
+[0.002832] (motor) JobStarted: {'identifier': 'motor'}
+[0.067924] (-) TimerEvent: {}
+[0.236369] (-) TimerEvent: {}
+[0.337680] (-) TimerEvent: {}
+[0.614490] (-) TimerEvent: {}
+[1.005490] (-) TimerEvent: {}
+[1.106124] (-) TimerEvent: {}
+[1.206928] (-) TimerEvent: {}
+[1.308629] (-) TimerEvent: {}
+[1.413822] (-) TimerEvent: {}
+[1.515787] (-) TimerEvent: {}
+[1.616506] (-) TimerEvent: {}
+[1.633408] (test_urdf) JobStarted: {'identifier': 'test_urdf'}
+[1.716827] (-) TimerEvent: {}
+[1.818515] (-) TimerEvent: {}
+[1.919595] (-) TimerEvent: {}
+[2.089398] (-) TimerEvent: {}
+[2.190128] (-) TimerEvent: {}
+[2.290738] (-) TimerEvent: {}
+[2.391401] (-) TimerEvent: {}
+[2.492098] (-) TimerEvent: {}
+[2.610334] (-) TimerEvent: {}
+[2.711071] (-) TimerEvent: {}
+[2.811690] (-) TimerEvent: {}
+[2.912520] (-) TimerEvent: {}
+[3.014087] (-) TimerEvent: {}
+[3.117241] (-) TimerEvent: {}
+[3.127020] (test_urdf) JobProgress: {'identifier': 'test_urdf', 'progress': 'cmake'}
+[3.217643] (-) TimerEvent: {}
+[3.261058] (test_urdf) JobProgress: {'identifier': 'test_urdf', 'progress': 'build'}
+[3.263472] (test_urdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osinachi/foxy_ws/build/test_urdf', '--', '-j4', '-l4'], 'cwd': '/home/osinachi/foxy_ws/build/test_urdf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osinachi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/osinachi'), ('OLDPWD', '/home/osinachi'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '172.25.237.52'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('NVM_DIR', '/home/osinachi/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osinachi/foxy_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'osinachi'), ('NAME', 'DESKTOP-7JTRJ0D'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/osinachi/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/osinachi/AppData/Local/Pub/Cache/bin:/mnt/c/Users/osinachi/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/osinachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/osinachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/src/flutter/flutter/bin:/mnt/c/Users/osinachi/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/snap/bin'), ('WT_SESSION', '5e972a56-e7dc-4a59-bb28-dc7c1ab7300b'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://DESKTOP-7JTRJ0D:11311/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/osinachi/foxy_ws/build/test_urdf'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osinachi/foxy_ws/build/motor:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'DESKTOP-7JTRJ0D'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[3.386607] (-) TimerEvent: {}
+[3.520541] (-) TimerEvent: {}
+[3.664619] (-) TimerEvent: {}
+[3.765540] (-) TimerEvent: {}
+[3.938172] (-) TimerEvent: {}
+[4.103094] (-) TimerEvent: {}
+[4.354855] (-) TimerEvent: {}
+[4.531158] (-) TimerEvent: {}
+[4.699368] (-) TimerEvent: {}
+[4.920449] (-) TimerEvent: {}
+[5.021136] (-) TimerEvent: {}
+[5.121926] (-) TimerEvent: {}
+[5.222693] (-) TimerEvent: {}
+[5.323354] (-) TimerEvent: {}
+[5.424274] (-) TimerEvent: {}
+[5.525042] (-) TimerEvent: {}
+[5.625626] (-) TimerEvent: {}
+[5.726180] (-) TimerEvent: {}
+[5.853092] (-) TimerEvent: {}
+[6.098886] (-) TimerEvent: {}
+[6.262756] (-) TimerEvent: {}
+[6.414544] (-) TimerEvent: {}
+[6.515095] (-) TimerEvent: {}
+[6.615666] (-) TimerEvent: {}
+[6.716263] (-) TimerEvent: {}
+[6.816861] (-) TimerEvent: {}
+[6.917415] (-) TimerEvent: {}
+[7.018067] (-) TimerEvent: {}
+[7.341917] (-) TimerEvent: {}
+[7.443626] (-) TimerEvent: {}
+[7.658302] (-) TimerEvent: {}
+[7.766714] (-) TimerEvent: {}
+[7.868927] (-) TimerEvent: {}
+[7.969747] (-) TimerEvent: {}
+[8.070451] (-) TimerEvent: {}
+[8.171201] (-) TimerEvent: {}
+[8.271903] (-) TimerEvent: {}
+[8.372680] (-) TimerEvent: {}
+[8.628651] (-) TimerEvent: {}
+[8.729187] (-) TimerEvent: {}
+[8.829844] (-) TimerEvent: {}
+[8.930483] (-) TimerEvent: {}
+[9.031350] (-) TimerEvent: {}
+[9.132032] (-) TimerEvent: {}
+[9.455144] (-) TimerEvent: {}
+[9.555827] (-) TimerEvent: {}
+[9.659882] (-) TimerEvent: {}
+[9.760543] (-) TimerEvent: {}
+[10.020477] (-) TimerEvent: {}
+[10.209610] (-) TimerEvent: {}
+[10.325428] (-) TimerEvent: {}
+[10.426117] (-) TimerEvent: {}
+[10.526596] (-) TimerEvent: {}
+[10.627086] (-) TimerEvent: {}
+[10.727741] (-) TimerEvent: {}
+[10.828537] (-) TimerEvent: {}
+[10.929376] (-) TimerEvent: {}
+[11.030078] (-) TimerEvent: {}
+[11.130964] (-) TimerEvent: {}
+[11.231654] (-) TimerEvent: {}
+[11.332523] (-) TimerEvent: {}
+[11.433248] (-) TimerEvent: {}
+[11.534044] (-) TimerEvent: {}
+[11.634709] (-) TimerEvent: {}
+[11.735474] (-) TimerEvent: {}
+[11.836363] (-) TimerEvent: {}
+[11.937185] (-) TimerEvent: {}
+[12.037928] (-) TimerEvent: {}
+[12.138866] (-) TimerEvent: {}
+[12.239488] (-) TimerEvent: {}
+[12.340263] (-) TimerEvent: {}
+[12.441782] (-) TimerEvent: {}
+[12.542471] (-) TimerEvent: {}
+[12.643100] (-) TimerEvent: {}
+[12.743695] (-) TimerEvent: {}
+[12.844512] (-) TimerEvent: {}
+[12.945353] (-) TimerEvent: {}
+[13.046092] (-) TimerEvent: {}
+[13.146755] (-) TimerEvent: {}
+[13.300775] (-) TimerEvent: {}
+[13.401591] (-) TimerEvent: {}
+[13.548471] (-) TimerEvent: {}
+[13.649283] (-) TimerEvent: {}
+[13.750037] (-) TimerEvent: {}
+[13.861730] (-) TimerEvent: {}
+[13.962487] (-) TimerEvent: {}
+[14.063252] (-) TimerEvent: {}
+[14.164043] (-) TimerEvent: {}
+[14.264722] (-) TimerEvent: {}
+[14.365486] (-) TimerEvent: {}
+[14.474674] (-) TimerEvent: {}
+[14.575909] (-) TimerEvent: {}
+[14.676415] (-) TimerEvent: {}
+[14.777052] (-) TimerEvent: {}
+[14.877847] (-) TimerEvent: {}
+[14.978491] (-) TimerEvent: {}
+[15.079452] (-) TimerEvent: {}
+[15.180206] (-) TimerEvent: {}
+[15.281428] (-) TimerEvent: {}
+[15.382393] (-) TimerEvent: {}
+[15.483345] (-) TimerEvent: {}
+[15.584157] (-) TimerEvent: {}
+[15.685003] (-) TimerEvent: {}
+[15.904899] (-) TimerEvent: {}
+[16.005468] (-) TimerEvent: {}
+[16.106218] (-) TimerEvent: {}
+[16.206993] (-) TimerEvent: {}
+[16.307804] (-) TimerEvent: {}
+[16.408372] (-) TimerEvent: {}
+[16.541211] (-) TimerEvent: {}
+[16.641895] (-) TimerEvent: {}
+[16.770060] (-) TimerEvent: {}
+[16.870891] (-) TimerEvent: {}
+[16.971497] (-) TimerEvent: {}
+[17.077956] (-) TimerEvent: {}
+[17.178645] (-) TimerEvent: {}
+[17.823473] (-) TimerEvent: {}
+[17.924255] (-) TimerEvent: {}
+[18.025086] (-) TimerEvent: {}
+[18.125858] (-) TimerEvent: {}
+[18.226731] (-) TimerEvent: {}
+[18.327372] (-) TimerEvent: {}
+[18.428105] (-) TimerEvent: {}
+[18.528838] (-) TimerEvent: {}
+[18.667012] (-) TimerEvent: {}
+[18.800444] (-) TimerEvent: {}
+[18.901059] (-) TimerEvent: {}
+[19.001975] (-) TimerEvent: {}
+[19.102549] (-) TimerEvent: {}
+[19.128328] (test_urdf) CommandEnded: {'returncode': 0}
+[19.167056] (test_urdf) JobProgress: {'identifier': 'test_urdf', 'progress': 'install'}
+[19.182097] (test_urdf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/osinachi/foxy_ws/build/test_urdf'], 'cwd': '/home/osinachi/foxy_ws/build/test_urdf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'osinachi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/osinachi'), ('OLDPWD', '/home/osinachi'), ('ROS_PYTHON_VERSION', '3'), ('ROS_IP', '172.25.237.52'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('NVM_DIR', '/home/osinachi/.nvm'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osinachi/foxy_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'osinachi'), ('NAME', 'DESKTOP-7JTRJ0D'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/osinachi/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/osinachi/AppData/Local/Pub/Cache/bin:/mnt/c/Users/osinachi/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/osinachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/osinachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/src/flutter/flutter/bin:/mnt/c/Users/osinachi/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/snap/bin'), ('WT_SESSION', '5e972a56-e7dc-4a59-bb28-dc7c1ab7300b'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('ROS_MASTER_URI', 'http://DESKTOP-7JTRJ0D:11311/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/osinachi/foxy_ws/build/test_urdf'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osinachi/foxy_ws/build/motor:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('ROS_HOSTNAME', 'DESKTOP-7JTRJ0D'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('NVM_RC_VERSION', ''), ('CMAKE_PREFIX_PATH', '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[19.202850] (-) TimerEvent: {}
+[19.303683] (-) TimerEvent: {}
+[19.404432] (-) TimerEvent: {}
+[19.505186] (-) TimerEvent: {}
+[19.605942] (-) TimerEvent: {}
+[19.611164] (test_urdf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.612667] (test_urdf) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[19.706347] (-) TimerEvent: {}
+[19.716649] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/description/example_include.xacro\n'}
+[19.717506] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/description/example_robot.urdf.xacro\n'}
+[19.718051] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/launch/rsp.launch.py\n'}
+[19.718632] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/launch/rsp_sim.launch.py\n'}
+[19.719527] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/ament_index/resource_index/package_run_dependencies/test_urdf\n'}
+[19.720380] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/ament_index/resource_index/parent_prefix_path/test_urdf\n'}
+[19.721244] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/ament_prefix_path.sh\n'}
+[19.722084] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/ament_prefix_path.dsv\n'}
+[19.723158] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/path.sh\n'}
+[19.723915] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/path.dsv\n'}
+[19.724758] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.bash\n'}
+[19.725516] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.sh\n'}
+[19.726412] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.zsh\n'}
+[19.727108] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.dsv\n'}
+[19.727800] (test_urdf) StdoutLine: {'line': b'-- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.dsv\n'}
+[19.747199] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/ament_index/resource_index/packages/test_urdf\n'}
+[19.748051] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/cmake/test_urdfConfig.cmake\n'}
+[19.762278] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/cmake/test_urdfConfig-version.cmake\n'}
+[19.763082] (test_urdf) StdoutLine: {'line': b'-- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.xml\n'}
+[19.767344] (test_urdf) CommandEnded: {'returncode': 0}
+[19.807313] (-) TimerEvent: {}
+[19.909409] (-) TimerEvent: {}
+[20.010167] (-) TimerEvent: {}
+[20.128913] (-) TimerEvent: {}
+[20.229688] (-) TimerEvent: {}
+[20.330449] (-) TimerEvent: {}
+[20.434521] (-) TimerEvent: {}
+[20.535218] (-) TimerEvent: {}
+[20.636006] (-) TimerEvent: {}
+[20.773348] (-) TimerEvent: {}
+[20.874024] (-) TimerEvent: {}
+[20.974668] (-) TimerEvent: {}
+[21.075348] (-) TimerEvent: {}
+[21.175831] (-) TimerEvent: {}
+[21.281165] (-) TimerEvent: {}
+[21.381697] (-) TimerEvent: {}
+[21.482142] (-) TimerEvent: {}
+[21.546457] (test_urdf) JobEnded: {'identifier': 'test_urdf', 'rc': 0}
+[21.616684] (-) TimerEvent: {}
+[21.717292] (-) TimerEvent: {}
+[21.818045] (-) TimerEvent: {}
+[21.918767] (-) TimerEvent: {}
+[22.019449] (-) TimerEvent: {}
+[22.120140] (-) TimerEvent: {}
+[22.220844] (-) TimerEvent: {}
+[22.321631] (-) TimerEvent: {}
+[22.422435] (-) TimerEvent: {}
+[22.754891] (-) TimerEvent: {}
+[22.855676] (-) TimerEvent: {}
+[22.956366] (-) TimerEvent: {}
+[23.176771] (-) TimerEvent: {}
+[23.277322] (-) TimerEvent: {}
+[23.391241] (-) TimerEvent: {}
+[23.496777] (-) TimerEvent: {}
+[23.597455] (-) TimerEvent: {}
+[23.698077] (-) TimerEvent: {}
+[23.798584] (-) TimerEvent: {}
+[23.899082] (-) TimerEvent: {}
+[23.983354] (motor) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/osinachi/foxy_ws/build/motor/build', '--no-deps', 'install_data'], 'cwd': '/home/osinachi/foxy_ws/build/motor', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'osinachi', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/osinachi', 'OLDPWD': '/home/osinachi', 'ROS_PYTHON_VERSION': '3', 'ROS_IP': '172.25.237.52', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'NVM_DIR': '/home/osinachi/.nvm', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/osinachi/foxy_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'osinachi', 'NAME': 'DESKTOP-7JTRJ0D', 'WSL_INTEROP': '/run/WSL/8_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/osinachi/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/MATLAB/R2022b/runtime/win64:/mnt/c/Program Files/MATLAB/R2022b/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/osinachi/AppData/Local/Pub/Cache/bin:/mnt/c/Users/osinachi/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python38/Scripts/:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python38/:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/osinachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/osinachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/src/flutter/flutter/bin:/mnt/c/Users/osinachi/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/snap/bin', 'WT_SESSION': '5e972a56-e7dc-4a59-bb28-dc7c1ab7300b', 'XDG_RUNTIME_DIR': '/mnt/wslg/runtime-dir', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://DESKTOP-7JTRJ0D:11311/', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/osinachi/foxy_ws/build/motor', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/osinachi/foxy_ws/build/motor/prefix_override:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:/home/osinachi/foxy_ws/build/motor:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'ROS_HOSTNAME': 'DESKTOP-7JTRJ0D', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'NVM_RC_VERSION': '', 'CMAKE_PREFIX_PATH': '/home/osinachi/foxy_ws/install/test_urdf', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[24.063527] (-) TimerEvent: {}
+[24.164144] (-) TimerEvent: {}
+[24.264543] (-) TimerEvent: {}
+[24.364928] (-) TimerEvent: {}
+[24.384630] (motor) StdoutLine: {'line': b'running develop\n'}
+[24.465274] (-) TimerEvent: {}
+[24.565908] (-) TimerEvent: {}
+[24.698272] (-) TimerEvent: {}
+[24.798739] (-) TimerEvent: {}
+[24.899292] (-) TimerEvent: {}
+[24.999817] (-) TimerEvent: {}
+[25.052299] (motor) StdoutLine: {'line': b'running egg_info\n'}
+[25.055673] (motor) StdoutLine: {'line': b'writing motor.egg-info/PKG-INFO\n'}
+[25.055968] (motor) StdoutLine: {'line': b'writing dependency_links to motor.egg-info/dependency_links.txt\n'}
+[25.056135] (motor) StdoutLine: {'line': b'writing entry points to motor.egg-info/entry_points.txt\n'}
+[25.056335] (motor) StdoutLine: {'line': b'writing requirements to motor.egg-info/requires.txt\n'}
+[25.056511] (motor) StdoutLine: {'line': b'writing top-level names to motor.egg-info/top_level.txt\n'}
+[25.100105] (-) TimerEvent: {}
+[25.200874] (-) TimerEvent: {}
+[25.301501] (-) TimerEvent: {}
+[25.402098] (-) TimerEvent: {}
+[25.440983] (motor) StdoutLine: {'line': b"reading manifest file 'motor.egg-info/SOURCES.txt'\n"}
+[25.502343] (-) TimerEvent: {}
+[25.512059] (motor) StdoutLine: {'line': b"writing manifest file 'motor.egg-info/SOURCES.txt'\n"}
+[25.515842] (motor) StdoutLine: {'line': b'running build_ext\n'}
+[25.533208] (motor) StdoutLine: {'line': b'Creating /home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages/motor.egg-link (link to .)\n'}
+[25.536001] (motor) StdoutLine: {'line': b'\n'}
+[25.536419] (motor) StdoutLine: {'line': b'Installed /home/osinachi/foxy_ws/build/motor\n'}
+[25.536841] (motor) StdoutLine: {'line': b'running install_data\n'}
+[25.616412] (motor) CommandEnded: {'returncode': 0}
+[25.616941] (-) TimerEvent: {}
+[25.718044] (-) TimerEvent: {}
+[25.818902] (-) TimerEvent: {}
+[25.850310] (motor) JobEnded: {'identifier': 'motor', 'rc': 0}
+[25.852086] (-) EventReactorShutdown: {}

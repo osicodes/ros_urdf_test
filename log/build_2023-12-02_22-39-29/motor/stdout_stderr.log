@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating motor.egg-info
+writing motor.egg-info/PKG-INFO
+writing dependency_links to motor.egg-info/dependency_links.txt
+writing entry points to motor.egg-info/entry_points.txt
+writing requirements to motor.egg-info/requires.txt
+writing top-level names to motor.egg-info/top_level.txt
+writing manifest file 'motor.egg-info/SOURCES.txt'
+reading manifest file 'motor.egg-info/SOURCES.txt'
+writing manifest file 'motor.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages/site.py
+Creating /home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages/motor.egg-link (link to .)
+
+Installed /home/osinachi/foxy_ws/build/motor
+running install_data
+creating /home/osinachi/foxy_ws/install/motor/share/ament_index
+creating /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index
+creating /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/packages
+copying resource/motor -> /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/packages
+copying package.xml -> /home/osinachi/foxy_ws/install/motor/share/motor

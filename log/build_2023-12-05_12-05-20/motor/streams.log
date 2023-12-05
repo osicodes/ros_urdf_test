@@ -1,0 +1,46 @@
+[2.187s] Invoking command in '/home/osinachi/foxy_ws/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy /usr/bin/cmake /home/osinachi/foxy_ws/src/motor -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/motor
+[29.843s] -- The C compiler identification is GNU 9.4.0
+[43.544s] -- The CXX compiler identification is GNU 9.4.0
+[44.168s] -- Check for working C compiler: /usr/bin/cc
+[46.525s] -- Check for working C compiler: /usr/bin/cc -- works
+[46.706s] -- Detecting C compiler ABI info
+[47.736s] -- Detecting C compiler ABI info - done
+[47.956s] -- Detecting C compile features
+[48.099s] -- Detecting C compile features - done
+[48.226s] -- Check for working CXX compiler: /usr/bin/c++
+[49.298s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[49.302s] -- Detecting CXX compiler ABI info
+[50.494s] -- Detecting CXX compiler ABI info - done
+[50.514s] -- Detecting CXX compile features
+[50.515s] -- Detecting CXX compile features - done
+[51.780s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[51.884s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[51.885s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[52.621s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[52.861s] -- Added test 'copyright' to check source files copyright and LICENSE
+[52.961s] -- Added test 'lint_cmake' to check CMake code style
+[52.974s] -- Added test 'xmllint' to check XML markup files
+[53.068s] -- Configuring done
+[53.435s] -- Generating done
+[53.472s] -- Build files have been written to: /home/osinachi/foxy_ws/build/motor
+[53.479s] Invoked command in '/home/osinachi/foxy_ws/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy /usr/bin/cmake /home/osinachi/foxy_ws/src/motor -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/motor
+[53.486s] Invoking command in '/home/osinachi/foxy_ws/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy /usr/bin/cmake --build /home/osinachi/foxy_ws/build/motor -- -j4 -l4
+[53.562s] Invoked command in '/home/osinachi/foxy_ws/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy /usr/bin/cmake --build /home/osinachi/foxy_ws/build/motor -- -j4 -l4
+[53.645s] Invoking command in '/home/osinachi/foxy_ws/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy /usr/bin/cmake --install /home/osinachi/foxy_ws/build/motor
+[53.672s] -- Install configuration: ""
+[53.686s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+[53.686s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+[53.687s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/environment/ament_prefix_path.sh
+[53.688s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/environment/ament_prefix_path.dsv
+[53.689s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/environment/path.sh
+[53.703s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/environment/path.dsv
+[53.704s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.bash
+[53.704s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.sh
+[53.705s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.zsh
+[53.705s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.dsv
+[53.706s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/package.dsv
+[53.707s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/packages/motor
+[53.708s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/cmake/motorConfig.cmake
+[53.709s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/cmake/motorConfig-version.cmake
+[53.723s] -- Installing: /home/osinachi/foxy_ws/install/motor/share/motor/package.xml
+[53.727s] Invoked command in '/home/osinachi/foxy_ws/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy /usr/bin/cmake --install /home/osinachi/foxy_ws/build/motor

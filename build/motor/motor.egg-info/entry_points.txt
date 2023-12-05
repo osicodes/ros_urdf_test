@@ -1,0 +1,3 @@
+[console_scripts]
+send_launch = motor.launch.py
+

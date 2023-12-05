@@ -1,0 +1,1 @@
+/home/osinachi/foxy_ws/build/motor/ament_cmake_core/motorConfig-version.cmake

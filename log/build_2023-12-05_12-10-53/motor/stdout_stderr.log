@@ -1,0 +1,32 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/osinachi/foxy_ws/build/motor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/description/motor_design.urdf.xacro
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/description/motor_functions.xacro
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/launch/motor.launch.py
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/environment/ament_prefix_path.sh
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/environment/path.sh
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/environment/path.dsv
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.bash
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.sh
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.zsh
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.dsv
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/package.dsv
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/packages/motor
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/cmake/motorConfig.cmake
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/cmake/motorConfig-version.cmake
+-- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/package.xml

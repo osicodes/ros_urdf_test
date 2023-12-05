@@ -1,0 +1,16 @@
+[123.991s] Invoking command in '/home/osinachi/foxy_ws/build/motor': PYTHONPATH=/home/osinachi/foxy_ws/build/motor/prefix_override:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/motor/build --no-deps install_data
+[128.971s] running develop
+[130.189s] running egg_info
+[130.190s] writing motor.egg-info/PKG-INFO
+[130.607s] writing dependency_links to motor.egg-info/dependency_links.txt
+[130.607s] writing entry points to motor.egg-info/entry_points.txt
+[130.829s] writing requirements to motor.egg-info/requires.txt
+[131.430s] writing top-level names to motor.egg-info/top_level.txt
+[138.295s] reading manifest file 'motor.egg-info/SOURCES.txt'
+[138.945s] writing manifest file 'motor.egg-info/SOURCES.txt'
+[138.945s] running build_ext
+[138.947s] Creating /home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages/motor.egg-link (link to .)
+[139.186s] 
+[139.186s] Installed /home/osinachi/foxy_ws/build/motor
+[139.187s] running install_data
+[140.539s] Invoked command in '/home/osinachi/foxy_ws/build/motor' returned '0': PYTHONPATH=/home/osinachi/foxy_ws/build/motor/prefix_override:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/motor/build --no-deps install_data

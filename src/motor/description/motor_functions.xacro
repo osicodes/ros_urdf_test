@@ -3,23 +3,23 @@
     
     <!-- Colors -->
     <material name="WhiteGrey">
-        <color rgba="${217/255} ${215/255} ${202/255} 1.0" />
+        <color rgba="${217/255} ${215/255} ${202/255} 1.0" /> **0.8509 0.8431 0.7921 1.0**
     </material>
     
     <material name="LightBlueGreen">
-        <color rgba="${60/255} ${141/255} ${147/255} 1.0" />
+        <color rgba="${60/255} ${141/255} ${147/255} 1.0" />**0.2353 0.5529 0.5764 1.0**
     </material>
     
     <material name="DarkBlueGreen">
-        <color rgba="${31/255} ${69/255} ${77/255} 1.0" />
+        <color rgba="${31/255} ${69/255} ${77/255} 1.0" />**0.1215 0.2705 0.3019 1.0**
     </material>
     
     <material name="Brown">
-        <color rgba="${115/255} ${96/255} ${79/255} 1.0" />
+        <color rgba="${115/255} ${96/255} ${79/255} 1.0" />**0.4509 0.3764 0.3098 1.0**
     </material>
     
     <material name="BrownBlack">
-        <color rgba="${59/255} ${53/255} ${53/255} 1.0" />
+        <color rgba="${59/255} ${53/255} ${53/255} 1.0" />**0.2313 0.2078 0.2078 1.0**
     </material>
 
     <!-- Define equations that calculate the inertias-->

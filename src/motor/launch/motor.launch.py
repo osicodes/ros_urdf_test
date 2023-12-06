@@ -10,7 +10,7 @@ def generate_launch_description():
 
     # Specify the name of the package and path to xacro file within the package
     pkg_name = 'motor'
-    file_subpath = 'description/motor_design.urdf.xacro'
+    file_subpath = 'description/motor.urdf.xacro'
 
 
     # Use xacro to process the file

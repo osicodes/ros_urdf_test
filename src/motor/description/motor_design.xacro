@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robosi">
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
     <!-- Robot size -->
     <!-- Length = 300mm-->
     <!-- Width = 300mm-->
@@ -10,6 +10,8 @@
     <link name="base_link">
         
     </link>
+
+    <!-- CHASSIS LINK -->
 
     <joint name="chassis_joint" type="fixed">
         <parent link="base_link"/>
@@ -35,6 +37,21 @@
             <origin xyz="0.15 0.0 0.075" rpy="0.0 0.0 0.0"/>
         </xacro:inertial_box>
     </link>
+
+    <!-- <gazebo reference="chassis_link">
+        <material>Gazebo/Grey</material>
+    </gazebo> -->
+
+    <gazebo reference="chassis_link">
+        <visual>
+            <material>
+                <ambient>0.8509 0.8431 0.7921 1.0</ambient>
+                <diffuse>0.8509 0.8431 0.7921 1.0</diffuse>
+                <specular>0.8509 0.8431 0.7921 1.0 1.0</specular>
+                <!-- <emissive>15/255 6/255 179/255 1</emissive> -->
+            </material>
+        </visual>
+    </gazebo>
 
     <!-- LEFT WHEEL -->
 
@@ -64,6 +81,16 @@
         </xacro:inertial_cylinder>
     </link>
 
+    <gazebo reference="left_wheel_link">
+        <visual>
+            <material>
+                <ambient>0.2353 0.5529 0.5764 1.0</ambient>
+                <diffuse>0.2353 0.5529 0.5764 1.0</diffuse>
+                <specular>0.2353 0.5529 0.5764 1.0 1.0</specular>
+            </material>
+        </visual>
+    </gazebo>
+
     <!-- RIGHT WHEEL -->
 
     <joint name="right_wheel_joint" type="continuous">
@@ -92,6 +119,16 @@
         </xacro:inertial_cylinder>
     </link>
 
+    <gazebo reference="right_wheel_link">
+        <visual>
+            <material>
+                <ambient>0.2353 0.5529 0.5764 1.0</ambient>
+                <diffuse>0.2353 0.5529 0.5764 1.0</diffuse>
+                <specular>0.2353 0.5529 0.5764 1.0 1.0</specular>
+            </material>
+        </visual>
+    </gazebo>
+
     <!-- CASTER WHEEL -->
 
     <joint name="caster_wheel_joint" type="fixed">
@@ -118,5 +155,17 @@
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
         </xacro:inertial_sphere>
     </link>
+
+    <gazebo reference="caster_wheel_link">
+        <visual>
+            <material>
+                <ambient>0.2313 0.2078 0.2078 1.0</ambient>
+                <diffuse>0.2313 0.2078 0.2078 1.0</diffuse>
+                <specular>0.2313 0.2078 0.2078 1.0 1.0</specular>
+            </material>
+        </visual>
+        <mu1 value="0.001"/>
+        <mu2 value="0.001"/>
+    </gazebo>
 
 </robot>

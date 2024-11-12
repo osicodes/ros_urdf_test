@@ -2,6 +2,7 @@
 /home/osinachi/foxy_ws/install/motor/share/motor/description/motor.urdf.xacro
 /home/osinachi/foxy_ws/install/motor/share/motor/description/motor_design.xacro
 /home/osinachi/foxy_ws/install/motor/share/motor/description/motor_functions.xacro
+/home/osinachi/foxy_ws/install/motor/share/motor/launch/__pycache__/motor.launch.cpython-38.pyc
 /home/osinachi/foxy_ws/install/motor/share/motor/launch/motor.launch.py
 /home/osinachi/foxy_ws/install/motor/share/motor/launch/motor_sim.launch.py
 /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/package_run_dependencies/motor

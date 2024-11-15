@@ -8,7 +8,6 @@
     <xacro:include filename="motor_functions.xacro" /> 
 
     <link name="base_link">
-        
     </link>
 
     <!-- CHASSIS LINK -->
@@ -141,7 +140,7 @@
         <visual>
             <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
             <geometry>
-                <sphere radius="0.04"/>
+                <sphere radius="0.05"/>
             </geometry>
             <material name="BrownBlack"/>
         </visual>

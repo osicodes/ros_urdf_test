@@ -331,6 +331,9 @@ ament_pep257_BIN:FILEPATH=/opt/ros/foxy/bin/ament_pep257
 //Path to a program.
 ament_xmllint_BIN:FILEPATH=/opt/ros/foxy/bin/ament_xmllint
 
+//The directory containing a CMake configuration file for rclpy.
+rclpy_DIR:PATH=/opt/ros/foxy/share/rclpy/cmake
+
 //Value Computed by CMake
 test_urdf_BINARY_DIR:STATIC=/home/osinachi/foxy_ws/build/test_urdf
 

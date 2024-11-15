@@ -1,0 +1,2 @@
+[0.136s] Invoking command in '/home/osinachi/foxy_ws/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/osinachi/foxy_ws/build/motor -- -j4 -l4
+[1.025s] Invoked command in '/home/osinachi/foxy_ws/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/osinachi/foxy_ws/build/motor -- -j4 -l4

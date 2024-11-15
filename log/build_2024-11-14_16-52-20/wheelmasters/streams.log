@@ -1,0 +1,17 @@
+[4.803s] Invoking command in '/home/osinachi/foxy_ws/build/wheelmasters': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data
+[5.583s] running develop
+[5.915s] running egg_info
+[5.915s] writing wheelmasters.egg-info/PKG-INFO
+[5.916s] writing dependency_links to wheelmasters.egg-info/dependency_links.txt
+[5.917s] writing entry points to wheelmasters.egg-info/entry_points.txt
+[5.917s] writing requirements to wheelmasters.egg-info/requires.txt
+[5.918s] writing top-level names to wheelmasters.egg-info/top_level.txt
+[6.010s] reading manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[6.012s] writing manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[6.143s] running build_ext
+[6.145s] Creating /home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages/wheelmasters.egg-link (link to .)
+[6.147s] 
+[6.148s] Installed /home/osinachi/foxy_ws/build/wheelmasters
+[6.148s] running install_data
+[6.149s] error: can't copy 'launch': doesn't exist or not a regular file
+[6.212s] Invoked command in '/home/osinachi/foxy_ws/build/wheelmasters' returned '1': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data

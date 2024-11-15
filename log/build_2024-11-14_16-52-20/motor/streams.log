@@ -1,0 +1,28 @@
+[1.439s] Invoking command in '/home/osinachi/foxy_ws/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/osinachi/foxy_ws/build/motor -- -j4 -l4
+[3.369s] Invoked command in '/home/osinachi/foxy_ws/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/osinachi/foxy_ws/build/motor -- -j4 -l4
+[3.466s] Invoking command in '/home/osinachi/foxy_ws/build/motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/osinachi/foxy_ws/build/motor
+[3.494s] -- Install configuration: ""
+[3.495s] -- Execute custom install script
+[3.498s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/description/gazebo_control.xacro
+[3.499s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/description/motor.urdf.xacro
+[3.501s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/description/motor_design.xacro
+[3.503s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/description/motor_functions.xacro
+[3.506s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/launch/__pycache__/motor.launch.cpython-38.pyc
+[3.506s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/launch/motor.launch.py
+[3.508s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/launch/motor_sim.launch.py
+[3.508s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/package_run_dependencies/motor
+[3.510s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/parent_prefix_path/motor
+[3.512s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/environment/ament_prefix_path.sh
+[3.514s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/environment/ament_prefix_path.dsv
+[3.515s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/environment/path.sh
+[3.515s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/environment/path.dsv
+[3.515s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.bash
+[3.516s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.sh
+[3.516s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.zsh
+[3.516s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/local_setup.dsv
+[3.521s] -- Symlinking: /home/osinachi/foxy_ws/install/motor/share/motor/package.dsv
+[3.557s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/ament_index/resource_index/packages/motor
+[3.558s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/cmake/motorConfig.cmake
+[3.561s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/cmake/motorConfig-version.cmake
+[3.562s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/motor/share/motor/package.xml
+[3.573s] Invoked command in '/home/osinachi/foxy_ws/build/motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/osinachi/foxy_ws/build/motor

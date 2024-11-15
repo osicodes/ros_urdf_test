@@ -1,0 +1,39 @@
+[1.197s] Invoking command in '/home/osinachi/foxy_ws/build/my_cpackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/osinachi/foxy_ws/src/my_cpackage -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/my_cpackage
+[2.446s] -- The C compiler identification is GNU 9.4.0
+[2.448s] -- The CXX compiler identification is GNU 9.4.0
+[2.611s] -- Check for working C compiler: /usr/bin/cc
+[3.012s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.019s] -- Detecting C compiler ABI info
+[3.440s] -- Detecting C compiler ABI info - done
+[3.519s] -- Detecting C compile features
+[3.521s] -- Detecting C compile features - done
+[3.542s] -- Check for working CXX compiler: /usr/bin/c++
+[3.951s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.959s] -- Detecting CXX compiler ABI info
+[4.340s] -- Detecting CXX compiler ABI info - done
+[4.391s] -- Detecting CXX compile features
+[4.400s] -- Detecting CXX compile features - done
+[4.406s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.601s] -- Found PythonInterp: /home/osinachi/miniforgeexport/bin/python3 (found suitable version "3.10.13", minimum required is "3") 
+[4.602s] -- Using PYTHON_EXECUTABLE: /home/osinachi/miniforgeexport/bin/python3
+[5.156s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.291s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.385s] Traceback (most recent call last):
+[5.385s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[5.387s]     from catkin_pkg.package import parse_package_string
+[5.387s] ModuleNotFoundError: No module named 'catkin_pkg'
+[5.398s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[5.398s]   execute_process(/home/osinachi/miniforgeexport/bin/python3
+[5.398s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.399s]   /home/osinachi/foxy_ws/src/my_cpackage/package.xml
+[5.399s]   /home/osinachi/foxy_ws/build/my_cpackage/ament_cmake_core/package.cmake)
+[5.399s]   returned error code 1
+[5.399s] Call Stack (most recent call first):
+[5.400s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[5.400s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[5.400s]   CMakeLists.txt:40 (ament_lint_auto_find_test_dependencies)
+[5.401s] 
+[5.401s] 
+[5.402s] -- Configuring incomplete, errors occurred!
+[5.402s] See also "/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/CMakeOutput.log".
+[6.123s] Invoked command in '/home/osinachi/foxy_ws/build/my_cpackage' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/osinachi/foxy_ws/src/my_cpackage -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/my_cpackage

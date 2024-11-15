@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com)
+Commit Version: 1.6.0-1-g15f4949  Build Version: 1.6.7594.29634
+For more information, please see http://wiki.ros.org/sw_urdf_exporter
+-->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="wheelRobotURDF">
+
+	<link name="base_link">
+		<inertial>
+			<origin xyz="0.0073186 0.0004621 -0.058394" rpy="0 0 0" />
+			<mass value="1.3752" />
+			<inertia ixx="0.0035213" ixy="2.3308E-08" ixz="-2.6378E-05" iyy="0.0093894" iyz="-4.9939E-09" izz="0.011789" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/base_link.STL" />
+			</geometry>
+			<material name="">
+				<color rgba="0.79216 0.81961 0.93333 1" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/base_link.STL" />
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="right_wheel_Link">
+		<inertial>
+			<origin xyz="-2.5391E-15 -9.2981E-15 0.0125" rpy="0 0 0" />
+			<mass value="0.62851" />
+			<inertia ixx="0.00027469" ixy="6.6151E-17" ixz="-1.4158E-17" iyy="0.00027469" iyz="-4.6477E-17" izz="0.00051861" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/right_wheel_Link.STL" />
+			</geometry>
+			<material name="">
+				<color rgba="0.77647 0.75686 0.73725 1" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/right_wheel_Link.STL" />
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="rightWheel" type="continuous">
+		<origin xyz="0.0049888 -0.129 -0.12563" rpy="-1.5708 0 0" />
+		<parent link="base_link" />
+		<child link="right_wheel_Link" />
+		<axis xyz="0 0 -1" />
+		<limit effort="10" velocity="10" />
+		<dynamics damping="0.1" friction="0.1" />
+	</joint>
+
+	<link name="left_wheel_Link">
+		<inertial>
+			<origin xyz="-9.5751E-15 -1.0669E-15 -0.0125" rpy="0 0 0" />
+			<mass value="0.62851" />
+			<inertia ixx="0.00027469" ixy="-5.83E-17" ixz="-4.8115E-17" iyy="0.00027469" iyz="-5.3962E-18" izz="0.00051861" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/left_wheel_Link.STL" />
+			</geometry>
+			<material name="">
+				<color rgba="0.77647 0.75686 0.73725 1" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/left_wheel_Link.STL" />
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="leftWheel" type="continuous">
+		<origin xyz="0.0047388 0.129 -0.12563" rpy="-1.5708 0 0" />
+		<parent link="base_link" />
+		<child link="left_wheel_Link" />
+		<axis xyz="0 0 1" />
+		<limit effort="10" velocity="10" />
+		<dynamics damping="0.1" friction="0.1" />
+	</joint>
+
+	<link name="front_caster_Link">
+		<inertial>
+			<origin xyz="0.0038913 8.0878E-05 -0.034206" rpy="0 0 0" />
+			<mass value="0.01256" />
+			<inertia ixx="2.1339E-06" ixy="5.6992E-09" ixz="1.1581E-07" iyy="1.8598E-06" iyz="2.4069E-09" izz="1.7867E-06" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/front_caster_Link.STL" />
+			</geometry>
+			<material name="">
+				<color rgba="0.33333 0.33333 0.33333 1" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/front_caster_Link.STL" />
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="frontCaster" type="continuous">
+		<origin xyz="0.12386 0 -0.085" rpy="0 0 0" />
+		<parent link="base_link" />
+		<child link="front_caster_Link" />
+		<axis xyz="0 0 1" />
+		<limit effort="10" velocity="10" />
+	</joint>
+
+	<link name="front_caster_wheel_Link">
+		<inertial>
+			<origin xyz="-2.7756E-17 0 -7.0473E-19" rpy="0 0 0" />
+			<mass value="0.01311" />
+			<inertia ixx="1.2123E-06" ixy="-1.2206E-23" ixz="-3.079E-09" iyy="1.2122E-06" iyz="1.1337E-24" izz="1.3604E-06" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/front_caster_wheel_Link.STL" />
+			</geometry>
+			<material name="">
+				<color rgba="0.64706 0.64706 0.64706 1" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/front_caster_wheel_Link.STL" />
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="frontCasterWheel" type="continuous">
+		<origin xyz="0.017996 0.00037404 -0.06563" rpy="-1.5708 0 0" />
+		<parent link="front_caster_Link" />
+		<child link="front_caster_wheel_Link" />
+		<axis xyz="0.02078 0 -0.99978" />
+		<limit effort="10" velocity="10" />
+		<dynamics damping="0.1" friction="0.1" />
+	</joint>
+
+	<link name="rear_caster_Link">
+		<inertial>
+			<origin xyz="-0.0038921 2.1037E-05 -0.034206" rpy="0 0 0" />
+			<mass value="0.01256" />
+			<inertia ixx="2.134E-06" ixy="-1.4827E-09" ixz="-1.1583E-07" iyy="1.8597E-06" iyz="6.2608E-10" izz="1.7867E-06" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/rear_caster_Link.STL" />
+			</geometry>
+			<material name="">
+				<color rgba="0.33333 0.33333 0.33333 1" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/rear_caster_Link.STL" />
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="rearCaster" type="continuous">
+		<origin xyz="-0.11414 0 -0.085" rpy="0 0 0" />
+		<parent link="base_link" />
+		<child link="rear_caster_Link" />
+		<axis xyz="0 0 1" />
+		<limit effort="10" velocity="10" />
+	</joint>
+
+	<link name="rear_caster_wheel_Link">
+		<inertial>
+			<origin xyz="0 0 1.0842E-19" rpy="0 0 0" />
+			<mass value="0.01311" />
+			<inertia ixx="1.2123E-06" ixy="1.5377E-23" ixz="8.0102E-10" iyy="1.2122E-06" iyz="2.7009E-24" izz="1.3605E-06" />
+		</inertial>
+		<visual>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/rear_caster_wheel_Link.STL" />
+			</geometry>
+			<material name="">
+				<color rgba="1 1 1 1" />
+			</material>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0" rpy="0 0 0" />
+			<geometry>
+				<mesh filename="file://$(find wheelmasters)/meshes/rear_caster_wheel_Link.STL" />
+			</geometry>
+		</collision>
+	</link>
+
+	<joint name="rearCasterWheel" type="continuous">
+		<origin xyz="-0.018 9.7287E-05 -0.06563" rpy="-1.5708 0 0" />
+		<parent link="rear_caster_Link" />
+		<child link="rear_caster_wheel_Link" />
+		<axis xyz="0.0054048 0 0.99999" />
+		<limit effort="10" velocity="10" />
+		<dynamics damping="0.1" friction="0.1" />
+	</joint>
+
+</robot>

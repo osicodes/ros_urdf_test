@@ -1,0 +1,24 @@
+[4.517s] Invoking command in '/home/osinachi/foxy_ws/build/my_cpackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/osinachi/foxy_ws/src/my_cpackage -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/my_cpackage
+[8.267s] Traceback (most recent call last):
+[8.271s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[8.273s]     from catkin_pkg.package import parse_package_string
+[8.280s] ModuleNotFoundError: No module named 'catkin_pkg'
+[8.283s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[8.284s]   execute_process(/home/osinachi/miniforgeexport/bin/python3
+[8.284s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[8.285s]   /home/osinachi/foxy_ws/src/my_cpackage/package.xml
+[8.286s]   /home/osinachi/foxy_ws/build/my_cpackage/ament_cmake_core/package.cmake)
+[8.286s]   returned error code 1
+[8.286s] Call Stack (most recent call first):
+[8.287s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[8.287s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[8.287s]   CMakeLists.txt:40 (ament_lint_auto_find_test_dependencies)
+[8.288s] 
+[8.288s] 
+[8.290s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[8.290s] -- Using PYTHON_EXECUTABLE: /home/osinachi/miniforgeexport/bin/python3
+[8.296s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.302s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.302s] -- Configuring incomplete, errors occurred!
+[8.302s] See also "/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/CMakeOutput.log".
+[8.313s] Invoked command in '/home/osinachi/foxy_ws/build/my_cpackage' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/osinachi/foxy_ws/src/my_cpackage -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/my_cpackage

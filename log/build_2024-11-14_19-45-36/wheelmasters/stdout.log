@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing wheelmasters.egg-info/PKG-INFO
+writing dependency_links to wheelmasters.egg-info/dependency_links.txt
+writing entry points to wheelmasters.egg-info/entry_points.txt
+writing requirements to wheelmasters.egg-info/requires.txt
+writing top-level names to wheelmasters.egg-info/top_level.txt
+reading manifest file 'wheelmasters.egg-info/SOURCES.txt'
+writing manifest file 'wheelmasters.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages/wheelmasters.egg-link (link to .)
+
+Installed /home/osinachi/foxy_ws/build/wheelmasters
+running install_data
+creating /home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/urdf
+copying urdf/wheelRobotURDF.urdf.xacro -> /home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/urdf

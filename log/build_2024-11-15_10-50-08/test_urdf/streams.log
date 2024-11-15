@@ -1,0 +1,25 @@
+[1.472s] Invoking command in '/home/osinachi/foxy_ws/build/test_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/osinachi/foxy_ws/build/test_urdf -- -j4 -l4
+[1.647s] Invoked command in '/home/osinachi/foxy_ws/build/test_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --build /home/osinachi/foxy_ws/build/test_urdf -- -j4 -l4
+[2.716s] Invoking command in '/home/osinachi/foxy_ws/build/test_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --install /home/osinachi/foxy_ws/build/test_urdf
+[2.771s] -- Install configuration: ""
+[2.773s] -- Execute custom install script
+[2.776s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/description/example_include.xacro
+[2.779s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/description/example_robot.urdf.xacro
+[2.781s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/launch/rsp.launch.py
+[2.784s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/launch/rsp_sim.launch.py
+[2.786s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/ament_index/resource_index/package_run_dependencies/test_urdf
+[2.788s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/ament_index/resource_index/parent_prefix_path/test_urdf
+[2.790s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/ament_prefix_path.sh
+[2.796s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/ament_prefix_path.dsv
+[2.796s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/path.sh
+[2.797s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/environment/path.dsv
+[2.799s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.bash
+[2.802s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.sh
+[2.807s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.zsh
+[2.808s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/local_setup.dsv
+[2.808s] -- Symlinking: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.dsv
+[2.869s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/ament_index/resource_index/packages/test_urdf
+[2.871s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/cmake/test_urdfConfig.cmake
+[2.876s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/cmake/test_urdfConfig-version.cmake
+[2.881s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.xml
+[3.737s] Invoked command in '/home/osinachi/foxy_ws/build/test_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake --install /home/osinachi/foxy_ws/build/test_urdf

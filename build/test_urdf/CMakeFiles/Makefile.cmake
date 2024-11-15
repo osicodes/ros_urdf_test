@@ -174,6 +174,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/foxy/share/ament_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/foxy/share/ament_lint_common/cmake/ament_lint_commonConfig-version.cmake"
   "/opt/ros/foxy/share/ament_lint_common/cmake/ament_lint_commonConfig.cmake"
+  "/opt/ros/foxy/share/rclpy/cmake/rclpyConfig-version.cmake"
+  "/opt/ros/foxy/share/rclpy/cmake/rclpyConfig.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.16/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"

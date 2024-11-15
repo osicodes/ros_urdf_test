@@ -1,0 +1,9 @@
+source;share/wheelmasters/hook/pythonpath.ps1
+source;share/wheelmasters/hook/pythonpath.dsv
+source;share/wheelmasters/hook/pythonpath.sh
+source;share/wheelmasters/hook/ament_prefix_path.ps1
+source;share/wheelmasters/hook/ament_prefix_path.dsv
+source;share/wheelmasters/hook/ament_prefix_path.sh
+source;../../build/wheelmasters/share/wheelmasters/hook/pythonpath_develop.ps1
+source;../../build/wheelmasters/share/wheelmasters/hook/pythonpath_develop.dsv
+source;../../build/wheelmasters/share/wheelmasters/hook/pythonpath_develop.sh

@@ -1,0 +1,16 @@
+[4.656s] Invoking command in '/home/osinachi/foxy_ws/build/wheelmasters': PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data
+[5.277s] running develop
+[5.643s] running egg_info
+[5.644s] writing wheelmasters.egg-info/PKG-INFO
+[5.645s] writing dependency_links to wheelmasters.egg-info/dependency_links.txt
+[5.646s] writing entry points to wheelmasters.egg-info/entry_points.txt
+[5.647s] writing requirements to wheelmasters.egg-info/requires.txt
+[5.648s] writing top-level names to wheelmasters.egg-info/top_level.txt
+[5.743s] reading manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[5.746s] writing manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[5.850s] running build_ext
+[5.851s] Creating /home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages/wheelmasters.egg-link (link to .)
+[5.854s] 
+[5.855s] Installed /home/osinachi/foxy_ws/build/wheelmasters
+[5.855s] running install_data
+[5.917s] Invoked command in '/home/osinachi/foxy_ws/build/wheelmasters' returned '0': PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data

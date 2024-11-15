@@ -1,0 +1,266 @@
+[6.765s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[6.767s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f133ac83b20>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f133ac83b20>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f133ac83f40>)
+[6.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[6.994s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.995s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/osinachi/foxy_ws'
+[6.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[6.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[6.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[6.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[6.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[6.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[6.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[6.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[6.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[7.024s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[7.025s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[7.026s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[7.026s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[7.026s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[7.026s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[7.027s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[7.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[7.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[7.027s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[7.027s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[7.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[7.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[7.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[7.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[7.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[7.028s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[7.029s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[7.030s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[7.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['ignore', 'ignore_ament_install']
+[7.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ignore'
+[7.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ignore_ament_install'
+[7.030s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['colcon_pkg']
+[7.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'colcon_pkg'
+[7.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['colcon_meta']
+[7.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'colcon_meta'
+[7.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extensions ['ros']
+[7.031s] Level 1:colcon.colcon_core.package_identification:_identify(src/motor) by extension 'ros'
+[7.038s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motor' with type 'ros.ament_cmake' and name 'motor'
+[7.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_urdf) by extensions ['ignore', 'ignore_ament_install']
+[7.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_urdf) by extension 'ignore'
+[7.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_urdf) by extension 'ignore_ament_install'
+[7.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_urdf) by extensions ['colcon_pkg']
+[7.039s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_urdf) by extension 'colcon_pkg'
+[7.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_urdf) by extensions ['colcon_meta']
+[7.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_urdf) by extension 'colcon_meta'
+[7.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_urdf) by extensions ['ros']
+[7.040s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_urdf) by extension 'ros'
+[7.041s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_urdf' with type 'ros.ament_cmake' and name 'test_urdf'
+[7.041s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelmasters) by extensions ['ignore', 'ignore_ament_install']
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelmasters) by extension 'ignore'
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelmasters) by extension 'ignore_ament_install'
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelmasters) by extensions ['colcon_pkg']
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelmasters) by extension 'colcon_pkg'
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelmasters) by extensions ['colcon_meta']
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelmasters) by extension 'colcon_meta'
+[7.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelmasters) by extensions ['ros']
+[7.043s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheelmasters) by extension 'ros'
+[7.043s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheelmasters' with type 'ros.ament_python' and name 'wheelmasters'
+[7.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[7.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[7.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[7.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[7.044s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[7.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[7.465s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[7.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 265 installed packages in /opt/ros/foxy
+[7.665s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[8.022s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_args' from command line to 'None'
+[8.022s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target' from command line to 'None'
+[8.023s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.023s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_cache' from command line to 'False'
+[8.023s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_clean_first' from command line to 'False'
+[8.023s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'cmake_force_configure' from command line to 'False'
+[8.023s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'ament_cmake_args' from command line to 'None'
+[8.023s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_cmake_args' from command line to 'None'
+[8.023s] Level 5:colcon.colcon_core.verb:set package 'motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.023s] DEBUG:colcon.colcon_core.verb:Building package 'motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osinachi/foxy_ws/build/motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osinachi/foxy_ws/install/motor', 'merge_install': False, 'path': '/home/osinachi/foxy_ws/src/motor', 'symlink_install': True, 'test_result_base': None}
+[8.087s] Level 5:colcon.colcon_core.verb:set package 'test_urdf' build argument 'cmake_args' from command line to 'None'
+[8.087s] Level 5:colcon.colcon_core.verb:set package 'test_urdf' build argument 'cmake_target' from command line to 'None'
+[8.087s] Level 5:colcon.colcon_core.verb:set package 'test_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.087s] Level 5:colcon.colcon_core.verb:set package 'test_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[8.087s] Level 5:colcon.colcon_core.verb:set package 'test_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[8.087s] Level 5:colcon.colcon_core.verb:set package 'test_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[8.087s] Level 5:colcon.colcon_core.verb:set package 'test_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[8.087s] Level 5:colcon.colcon_core.verb:set package 'test_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[8.087s] Level 5:colcon.colcon_core.verb:set package 'test_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.087s] DEBUG:colcon.colcon_core.verb:Building package 'test_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osinachi/foxy_ws/build/test_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osinachi/foxy_ws/install/test_urdf', 'merge_install': False, 'path': '/home/osinachi/foxy_ws/src/test_urdf', 'symlink_install': True, 'test_result_base': None}
+[8.163s] Level 5:colcon.colcon_core.verb:set package 'wheelmasters' build argument 'cmake_args' from command line to 'None'
+[8.163s] Level 5:colcon.colcon_core.verb:set package 'wheelmasters' build argument 'cmake_target' from command line to 'None'
+[8.163s] Level 5:colcon.colcon_core.verb:set package 'wheelmasters' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[8.163s] Level 5:colcon.colcon_core.verb:set package 'wheelmasters' build argument 'cmake_clean_cache' from command line to 'False'
+[8.164s] Level 5:colcon.colcon_core.verb:set package 'wheelmasters' build argument 'cmake_clean_first' from command line to 'False'
+[8.164s] Level 5:colcon.colcon_core.verb:set package 'wheelmasters' build argument 'cmake_force_configure' from command line to 'False'
+[8.164s] Level 5:colcon.colcon_core.verb:set package 'wheelmasters' build argument 'ament_cmake_args' from command line to 'None'
+[8.164s] Level 5:colcon.colcon_core.verb:set package 'wheelmasters' build argument 'catkin_cmake_args' from command line to 'None'
+[8.164s] Level 5:colcon.colcon_core.verb:set package 'wheelmasters' build argument 'catkin_skip_building_tests' from command line to 'False'
+[8.164s] DEBUG:colcon.colcon_core.verb:Building package 'wheelmasters' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/osinachi/foxy_ws/build/wheelmasters', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/osinachi/foxy_ws/install/wheelmasters', 'merge_install': False, 'path': '/home/osinachi/foxy_ws/src/wheelmasters', 'symlink_install': True, 'test_result_base': None}
+[8.235s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[8.311s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[8.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osinachi/foxy_ws/src/motor' with build type 'ament_cmake'
+[8.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osinachi/foxy_ws/src/motor'
+[8.386s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.387s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.387s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.569s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/osinachi/foxy_ws/src/test_urdf' with build type 'ament_cmake'
+[8.571s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/osinachi/foxy_ws/src/test_urdf'
+[8.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.841s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/osinachi/foxy_ws/src/wheelmasters' with build type 'ament_python'
+[8.843s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelmasters', 'ament_prefix_path')
+[8.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/hook/ament_prefix_path.ps1'
+[8.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/hook/ament_prefix_path.dsv'
+[8.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/hook/ament_prefix_path.sh'
+[9.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osinachi/foxy_ws/build/motor': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/osinachi/foxy_ws/build/motor -- -j4 -l4
+[9.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osinachi/foxy_ws/build/test_urdf': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/osinachi/foxy_ws/build/test_urdf -- -j4 -l4
+[9.795s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/osinachi/foxy_ws/src/wheelmasters'
+[9.873s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.873s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osinachi/foxy_ws/build/test_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/osinachi/foxy_ws/build/test_urdf -- -j4 -l4
+[10.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osinachi/foxy_ws/build/motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/osinachi/foxy_ws/build/motor -- -j4 -l4
+[10.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osinachi/foxy_ws/build/test_urdf': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/osinachi/foxy_ws/build/test_urdf
+[10.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osinachi/foxy_ws/build/motor': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/osinachi/foxy_ws/build/motor
+[10.269s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_urdf)
+[10.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osinachi/foxy_ws/build/test_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/osinachi/foxy_ws/build/test_urdf
+[10.370s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf' for CMake module files
+[10.371s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf' for CMake config files
+[10.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_urdf', 'cmake_prefix_path')
+[10.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/hook/cmake_prefix_path.ps1'
+[10.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/hook/cmake_prefix_path.dsv'
+[10.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/hook/cmake_prefix_path.sh'
+[10.476s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf/bin'
+[10.476s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf/lib/pkgconfig/test_urdf.pc'
+[10.477s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf/lib/python3.8/site-packages'
+[10.477s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf/bin'
+[10.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.ps1'
+[10.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.dsv'
+[10.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.sh'
+[10.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.bash'
+[10.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.zsh'
+[10.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osinachi/foxy_ws/install/test_urdf/share/colcon-core/packages/test_urdf)
+[10.633s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor)
+[10.635s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osinachi/foxy_ws/build/motor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/osinachi/foxy_ws/build/motor
+[10.735s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor' for CMake module files
+[10.737s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor' for CMake config files
+[10.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'cmake_prefix_path')
+[10.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/motor/share/motor/hook/cmake_prefix_path.ps1'
+[10.826s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osinachi/foxy_ws/install/motor/share/motor/hook/cmake_prefix_path.dsv'
+[10.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/motor/share/motor/hook/cmake_prefix_path.sh'
+[10.829s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/lib'
+[10.829s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/bin'
+[10.830s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/lib/pkgconfig/motor.pc'
+[10.830s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages'
+[10.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'pythonpath')
+[10.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/motor/share/motor/hook/pythonpath.ps1'
+[10.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osinachi/foxy_ws/install/motor/share/motor/hook/pythonpath.dsv'
+[10.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/motor/share/motor/hook/pythonpath.sh'
+[10.922s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/bin'
+[11.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/motor/share/motor/package.ps1'
+[11.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osinachi/foxy_ws/install/motor/share/motor/package.dsv'
+[11.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/motor/share/motor/package.sh'
+[11.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/motor/share/motor/package.bash'
+[11.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/motor/share/motor/package.zsh'
+[11.027s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osinachi/foxy_ws/install/motor/share/colcon-core/packages/motor)
+[11.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_urdf)
+[11.241s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf' for CMake module files
+[11.243s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf' for CMake config files
+[11.244s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_urdf', 'cmake_prefix_path')
+[11.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/hook/cmake_prefix_path.ps1'
+[11.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/hook/cmake_prefix_path.dsv'
+[11.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/hook/cmake_prefix_path.sh'
+[11.321s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf/bin'
+[11.322s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf/lib/pkgconfig/test_urdf.pc'
+[11.322s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf/lib/python3.8/site-packages'
+[11.323s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/test_urdf/bin'
+[11.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.ps1'
+[11.385s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.dsv'
+[11.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.sh'
+[11.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.bash'
+[11.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/test_urdf/share/test_urdf/package.zsh'
+[11.388s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osinachi/foxy_ws/install/test_urdf/share/colcon-core/packages/test_urdf)
+[11.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor)
+[11.553s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor' for CMake module files
+[11.554s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor' for CMake config files
+[11.554s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'cmake_prefix_path')
+[11.613s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/motor/share/motor/hook/cmake_prefix_path.ps1'
+[11.614s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osinachi/foxy_ws/install/motor/share/motor/hook/cmake_prefix_path.dsv'
+[11.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/motor/share/motor/hook/cmake_prefix_path.sh'
+[11.617s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/lib'
+[11.618s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/bin'
+[11.618s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/lib/pkgconfig/motor.pc'
+[11.619s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages'
+[11.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor', 'pythonpath')
+[11.687s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/motor/share/motor/hook/pythonpath.ps1'
+[11.688s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osinachi/foxy_ws/install/motor/share/motor/hook/pythonpath.dsv'
+[11.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/motor/share/motor/hook/pythonpath.sh'
+[11.690s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/motor/bin'
+[11.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/motor/share/motor/package.ps1'
+[11.765s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osinachi/foxy_ws/install/motor/share/motor/package.dsv'
+[11.766s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/motor/share/motor/package.sh'
+[11.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/motor/share/motor/package.bash'
+[11.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/motor/share/motor/package.zsh'
+[11.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osinachi/foxy_ws/install/motor/share/colcon-core/packages/motor)
+[11.782s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/osinachi/foxy_ws/build/wheelmasters': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data
+[12.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelmasters', 'pythonpath_develop')
+[12.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/osinachi/foxy_ws/build/wheelmasters' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data
+[12.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/build/wheelmasters/share/wheelmasters/hook/pythonpath_develop.ps1'
+[12.863s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osinachi/foxy_ws/build/wheelmasters/share/wheelmasters/hook/pythonpath_develop.dsv'
+[12.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/build/wheelmasters/share/wheelmasters/hook/pythonpath_develop.sh'
+[12.934s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/wheelmasters' for CMake module files
+[12.936s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/wheelmasters' for CMake config files
+[12.938s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/wheelmasters/lib'
+[12.938s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/wheelmasters/bin'
+[12.938s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/wheelmasters/lib/pkgconfig/wheelmasters.pc'
+[12.939s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages'
+[12.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheelmasters', 'pythonpath')
+[13.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/hook/pythonpath.ps1'
+[13.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/hook/pythonpath.dsv'
+[13.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/hook/pythonpath.sh'
+[13.009s] Level 1:colcon.colcon_core.environment:checking '/home/osinachi/foxy_ws/install/wheelmasters/bin'
+[13.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheelmasters)
+[13.077s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/package.ps1'
+[13.079s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/package.dsv'
+[13.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/package.sh'
+[13.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/package.bash'
+[13.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/package.zsh'
+[13.088s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/osinachi/foxy_ws/install/wheelmasters/share/colcon-core/packages/wheelmasters)
+[13.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.092s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.093s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[13.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[13.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[13.250s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[13.250s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[13.257s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[13.258s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[13.324s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osinachi/foxy_ws/install/local_setup.ps1'
+[13.326s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osinachi/foxy_ws/install/_local_setup_util_ps1.py'
+[13.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osinachi/foxy_ws/install/setup.ps1'
+[13.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osinachi/foxy_ws/install/local_setup.sh'
+[13.404s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/osinachi/foxy_ws/install/_local_setup_util_sh.py'
+[13.405s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osinachi/foxy_ws/install/setup.sh'
+[13.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osinachi/foxy_ws/install/local_setup.bash'
+[13.476s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osinachi/foxy_ws/install/setup.bash'
+[13.536s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/osinachi/foxy_ws/install/local_setup.zsh'
+[13.538s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/osinachi/foxy_ws/install/setup.zsh'

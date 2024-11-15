@@ -1,0 +1,17 @@
+[4.302s] Invoking command in '/home/osinachi/foxy_ws/build/wheelmasters': PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data
+[4.938s] running develop
+[5.307s] running egg_info
+[5.308s] writing wheelmasters.egg-info/PKG-INFO
+[5.309s] writing dependency_links to wheelmasters.egg-info/dependency_links.txt
+[5.310s] writing entry points to wheelmasters.egg-info/entry_points.txt
+[5.310s] writing requirements to wheelmasters.egg-info/requires.txt
+[5.311s] writing top-level names to wheelmasters.egg-info/top_level.txt
+[5.403s] reading manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[5.408s] writing manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[5.523s] running build_ext
+[5.526s] Creating /home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages/wheelmasters.egg-link (link to .)
+[5.529s] 
+[5.529s] Installed /home/osinachi/foxy_ws/build/wheelmasters
+[5.530s] running install_data
+[5.531s] copying urdf/wheelRobotURDF.urdf.xacro -> /home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters/urdf
+[5.597s] Invoked command in '/home/osinachi/foxy_ws/build/wheelmasters' returned '0': PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data

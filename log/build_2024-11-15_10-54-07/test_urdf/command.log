@@ -1,0 +1,1 @@
+Invoking command in '/home/osinachi/foxy_ws/build/test_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake /home/osinachi/foxy_ws/src/test_urdf -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/test_urdf

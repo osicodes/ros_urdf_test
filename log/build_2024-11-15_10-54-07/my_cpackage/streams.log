@@ -1,0 +1,19 @@
+[1.449s] Invoking command in '/home/osinachi/foxy_ws/build/my_cpackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake /home/osinachi/foxy_ws/src/my_cpackage -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/my_cpackage
+[2.750s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.750s] -- Found PythonInterp: /home/osinachi/miniforgeexport/bin/python3 (Required is at least version "3") 
+[2.750s] -- Using PYTHON_EXECUTABLE: /home/osinachi/miniforgeexport/bin/python3
+[2.751s] -- Configuring incomplete, errors occurred!
+[2.751s] See also "/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/CMakeOutput.log".
+[2.751s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[2.751s]   execute_process(/home/osinachi/miniforgeexport/bin/python3
+[2.752s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[2.752s]   /home/osinachi/foxy_ws/build/my_cpackage/ament_cmake_package_templates/templates.cmake)
+[2.752s]   returned error code No such file or directory
+[2.753s] Call Stack (most recent call first):
+[2.753s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[2.753s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[2.754s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[2.754s]   CMakeLists.txt:19 (find_package)
+[2.754s] 
+[2.755s] 
+[2.760s] Invoked command in '/home/osinachi/foxy_ws/build/my_cpackage' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy /usr/bin/cmake /home/osinachi/foxy_ws/src/my_cpackage -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/my_cpackage

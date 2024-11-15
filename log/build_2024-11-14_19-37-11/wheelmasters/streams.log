@@ -1,0 +1,19 @@
+[2.932s] Invoking command in '/home/osinachi/foxy_ws/build/wheelmasters': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data
+[3.427s] running develop
+[3.694s] running egg_info
+[3.695s] writing wheelmasters.egg-info/PKG-INFO
+[3.695s] writing dependency_links to wheelmasters.egg-info/dependency_links.txt
+[3.696s] writing entry points to wheelmasters.egg-info/entry_points.txt
+[3.697s] writing requirements to wheelmasters.egg-info/requires.txt
+[3.697s] writing top-level names to wheelmasters.egg-info/top_level.txt
+[3.764s] reading manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[3.766s] writing manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[3.839s] running build_ext
+[3.840s] Creating /home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages/wheelmasters.egg-link (link to .)
+[3.844s] 
+[3.845s] Installed /home/osinachi/foxy_ws/build/wheelmasters
+[3.847s] running install_data
+[3.850s] warning: install_data: setup script did not provide a directory for 'share/wheelmasters/meshes' -- installing right in '/home/osinachi/foxy_ws/install/wheelmasters'
+[3.850s] 
+[3.850s] error: can't copy 'share/wheelmasters/meshes': doesn't exist or not a regular file
+[3.900s] Invoked command in '/home/osinachi/foxy_ws/build/wheelmasters' returned '1': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data

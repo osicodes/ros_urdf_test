@@ -1,0 +1,1 @@
+/home/osinachi/foxy_ws/build/my_cpackage/ament_cmake_core/my_cpackageConfig.cmake

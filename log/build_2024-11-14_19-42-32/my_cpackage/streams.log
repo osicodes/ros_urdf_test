@@ -1,0 +1,23 @@
+[1.061s] Invoking command in '/home/osinachi/foxy_ws/build/my_cpackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/osinachi/foxy_ws/build/my_cpackage -- -j4 -l4
+[1.888s] [100%] Built target my_node
+[1.899s] Invoked command in '/home/osinachi/foxy_ws/build/my_cpackage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/osinachi/foxy_ws/build/my_cpackage -- -j4 -l4
+[2.005s] Invoking command in '/home/osinachi/foxy_ws/build/my_cpackage': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/osinachi/foxy_ws/build/my_cpackage
+[2.026s] -- Install configuration: ""
+[2.028s] -- Execute custom install script
+[2.036s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/lib/my_cpackage/my_node
+[2.037s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/ament_index/resource_index/package_run_dependencies/my_cpackage
+[2.039s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/ament_index/resource_index/parent_prefix_path/my_cpackage
+[2.040s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/environment/ament_prefix_path.sh
+[2.042s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/environment/ament_prefix_path.dsv
+[2.043s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/environment/path.sh
+[2.047s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/environment/path.dsv
+[2.048s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/local_setup.bash
+[2.048s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/local_setup.sh
+[2.050s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/local_setup.zsh
+[2.050s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/local_setup.dsv
+[2.050s] -- Symlinking: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/package.dsv
+[2.066s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/ament_index/resource_index/packages/my_cpackage
+[2.069s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/cmake/my_cpackageConfig.cmake
+[2.069s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/cmake/my_cpackageConfig-version.cmake
+[2.069s] -- Up-to-date symlink: /home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/package.xml
+[2.084s] Invoked command in '/home/osinachi/foxy_ws/build/my_cpackage' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/osinachi/foxy_ws/build/my_cpackage

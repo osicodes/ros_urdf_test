@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000514] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.000829] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000967] (test_urdf) JobQueued: {'identifier': 'test_urdf', 'dependencies': OrderedDict()}
+[0.001045] (wheelmasters) JobQueued: {'identifier': 'wheelmasters', 'dependencies': OrderedDict()}
+[0.007466] (motor) JobStarted: {'identifier': 'motor'}
+[0.102861] (-) TimerEvent: {}
+[0.205689] (-) TimerEvent: {}
+[0.309270] (-) TimerEvent: {}
+[0.410245] (-) TimerEvent: {}
+[0.515056] (-) TimerEvent: {}
+[0.623839] (-) TimerEvent: {}
+[0.732881] (-) TimerEvent: {}
+[0.805408] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.833392] (-) TimerEvent: {}
+[0.936716] (-) TimerEvent: {}
+[1.038237] (-) TimerEvent: {}
+[1.141258] (-) TimerEvent: {}
+[1.253448] (-) TimerEvent: {}
+[1.288713] (test_urdf) JobStarted: {'identifier': 'test_urdf'}
+[1.354606] (-) TimerEvent: {}
+[1.462107] (-) TimerEvent: {}
+[1.566155] (-) TimerEvent: {}
+[1.655646] (wheelmasters) JobStarted: {'identifier': 'wheelmasters'}
+[1.667109] (-) TimerEvent: {}
+[1.769032] (-) TimerEvent: {}
+[1.872625] (-) TimerEvent: {}
+[1.975974] (-) TimerEvent: {}
+[2.081786] (-) TimerEvent: {}
+[2.107020] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[2.108502] (motor) Command: {'cmd': ['/usr/bin/cmake', '/home/osinachi/foxy_ws/src/motor', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/src/install/motor'], 'cwd': '/home/osinachi/foxy_ws/src/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'osinachi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/osinachi'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/osinachi/foxy_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osinachi/foxy_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'osinachi'), ('NAME', 'DESKTOP-19OSI'), ('WSL_INTEROP', '/run/WSL/584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/osinachi/.local/bin:/home/osinachi/miniforgeexport/bin:/home/osinachi/miniforgeexport/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311:/mnt/c/dev/flutter/bin:/mnt/c/Users/osinachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/osinachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/tools/dart-sdk/bin:/mnt/c/Users/osinachi/AppData/Local/Pub/Cache/bin:/mnt/c/MinGW/bin:/mnt/c/ffmpeg_apps:/mnt/c/Program Files/Java/jdk-17/bin:/snap/bin'), ('WT_SESSION', '45a6fd89-1ba6-4a38-aec4-9a80f720dc14'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XML_CATALOG_FILES', 'file:///home/osinachi/miniforgeexport/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/my_package:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/osinachi/miniforgeexport/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/osinachi/foxy_ws/src/build/motor'), ('CONDA_EXE', '/home/osinachi/miniforgeexport/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osinachi/foxy_ws/build/wheelmasters:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:/home/osinachi/foxy_ws/build/my_package:/home/osinachi/foxy_ws/install/my_package/lib/python3.8/site-packages:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/osinachi/miniforgeexport'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[2.181994] (-) TimerEvent: {}
+[2.282795] (-) TimerEvent: {}
+[2.383514] (-) TimerEvent: {}
+[2.484181] (-) TimerEvent: {}
+[2.584938] (-) TimerEvent: {}
+[2.685644] (-) TimerEvent: {}
+[2.786276] (-) TimerEvent: {}
+[2.887065] (-) TimerEvent: {}
+[2.991891] (-) TimerEvent: {}
+[3.093098] (-) TimerEvent: {}
+[3.201435] (-) TimerEvent: {}
+[3.306165] (-) TimerEvent: {}
+[3.409489] (-) TimerEvent: {}
+[3.472295] (test_urdf) JobProgress: {'identifier': 'test_urdf', 'progress': 'cmake'}
+[3.474019] (test_urdf) Command: {'cmd': ['/usr/bin/cmake', '/home/osinachi/foxy_ws/src/test_urdf', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/src/install/test_urdf'], 'cwd': '/home/osinachi/foxy_ws/src/build/test_urdf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'osinachi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/osinachi'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/osinachi/foxy_ws'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osinachi/foxy_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'osinachi'), ('NAME', 'DESKTOP-19OSI'), ('WSL_INTEROP', '/run/WSL/584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/osinachi/.local/bin:/home/osinachi/miniforgeexport/bin:/home/osinachi/miniforgeexport/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311:/mnt/c/dev/flutter/bin:/mnt/c/Users/osinachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/osinachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/tools/dart-sdk/bin:/mnt/c/Users/osinachi/AppData/Local/Pub/Cache/bin:/mnt/c/MinGW/bin:/mnt/c/ffmpeg_apps:/mnt/c/Program Files/Java/jdk-17/bin:/snap/bin'), ('WT_SESSION', '45a6fd89-1ba6-4a38-aec4-9a80f720dc14'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XML_CATALOG_FILES', 'file:///home/osinachi/miniforgeexport/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/my_package:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/osinachi/miniforgeexport/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/osinachi/foxy_ws/src/build/test_urdf'), ('CONDA_EXE', '/home/osinachi/miniforgeexport/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osinachi/foxy_ws/build/wheelmasters:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:/home/osinachi/foxy_ws/build/my_package:/home/osinachi/foxy_ws/install/my_package/lib/python3.8/site-packages:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/osinachi/miniforgeexport'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[3.488712] (motor) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[3.489865] (motor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[3.490280] (motor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[3.510996] (-) TimerEvent: {}
+[3.612797] (-) TimerEvent: {}
+[3.632234] (motor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[3.633098] (motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.712978] (-) TimerEvent: {}
+[3.813712] (-) TimerEvent: {}
+[3.914595] (-) TimerEvent: {}
+[3.921690] (test_urdf) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[4.014792] (-) TimerEvent: {}
+[4.070209] (motor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.104168] (motor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.106136] (motor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.114975] (-) TimerEvent: {}
+[4.117248] (motor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[4.215196] (-) TimerEvent: {}
+[4.315856] (-) TimerEvent: {}
+[4.418936] (-) TimerEvent: {}
+[4.451688] (test_urdf) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.521386] (-) TimerEvent: {}
+[4.527619] (motor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[4.531145] (motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.622162] (-) TimerEvent: {}
+[4.724591] (test_urdf) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.733198] (-) TimerEvent: {}
+[4.834090] (-) TimerEvent: {}
+[4.935110] (-) TimerEvent: {}
+[4.972607] (motor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.010641] (motor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.012844] (motor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.017692] (motor) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[5.035585] (-) TimerEvent: {}
+[5.136509] (-) TimerEvent: {}
+[5.149271] (motor) StdoutLine: {'line': b'-- Found PythonInterp: /home/osinachi/miniforgeexport/bin/python3 (found suitable version "3.10.13", minimum required is "3") \n'}
+[5.154545] (motor) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/osinachi/miniforgeexport/bin/python3\n'}
+[5.159162] (test_urdf) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.160651] (test_urdf) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.236609] (-) TimerEvent: {}
+[5.337206] (-) TimerEvent: {}
+[5.437932] (-) TimerEvent: {}
+[5.538560] (-) TimerEvent: {}
+[5.640234] (-) TimerEvent: {}
+[5.641990] (test_urdf) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.684735] (motor) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.734434] (test_urdf) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.734945] (test_urdf) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.740436] (-) TimerEvent: {}
+[5.761818] (test_urdf) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[5.815064] (motor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.840571] (-) TimerEvent: {}
+[5.907039] (motor) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[5.908284] (motor) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>\n'}
+[5.909592] (motor) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[5.910048] (motor) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[5.921400] (motor) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[5.922205] (motor) StderrLine: {'line': b'  execute_process(/home/osinachi/miniforgeexport/bin/python3\n'}
+[5.922585] (motor) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[5.922848] (motor) StderrLine: {'line': b'  /home/osinachi/foxy_ws/src/motor/package.xml\n'}
+[5.923174] (motor) StderrLine: {'line': b'  /home/osinachi/foxy_ws/src/build/motor/ament_cmake_core/package.cmake)\n'}
+[5.923428] (motor) StderrLine: {'line': b'  returned error code 1\n'}
+[5.923677] (motor) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.923924] (motor) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[5.924180] (motor) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[5.924519] (motor) StderrLine: {'line': b'  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)\n'}
+[5.924769] (motor) StderrLine: {'line': b'\n'}
+[5.925045] (motor) StderrLine: {'line': b'\n'}
+[5.931722] (motor) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.932260] (motor) StdoutLine: {'line': b'See also "/home/osinachi/foxy_ws/src/build/motor/CMakeFiles/CMakeOutput.log".\n'}
+[5.940728] (-) TimerEvent: {}
+[5.948525] (motor) CommandEnded: {'returncode': 1}
+[6.041307] (-) TimerEvent: {}
+[6.142152] (-) TimerEvent: {}
+[6.245551] (-) TimerEvent: {}
+[6.346334] (-) TimerEvent: {}
+[6.457189] (-) TimerEvent: {}
+[6.468764] (motor) JobEnded: {'identifier': 'motor', 'rc': 1}
+[6.505189] (test_urdf) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.506682] (test_urdf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.557348] (-) TimerEvent: {}
+[6.657910] (-) TimerEvent: {}
+[6.758512] (-) TimerEvent: {}
+[6.858348] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 'SIGINT'}
+[6.860328] (-) TimerEvent: {}
+[6.960891] (-) TimerEvent: {}
+[7.061605] (-) TimerEvent: {}
+[7.068441] (wheelmasters) JobEnded: {'identifier': 'wheelmasters', 'rc': 'SIGINT'}
+[7.161808] (-) TimerEvent: {}
+[7.233379] (test_urdf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.261993] (-) TimerEvent: {}
+[7.291078] (test_urdf) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.293640] (test_urdf) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.311685] (test_urdf) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.362176] (-) TimerEvent: {}
+[7.435481] (test_urdf) StdoutLine: {'line': b'-- Found PythonInterp: /home/osinachi/miniforgeexport/bin/python3 (found suitable version "3.10.13", minimum required is "3") \n'}
+[7.435984] (test_urdf) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/osinachi/miniforgeexport/bin/python3\n'}
+[7.462361] (-) TimerEvent: {}
+[7.563027] (-) TimerEvent: {}
+[7.663765] (-) TimerEvent: {}
+[7.764366] (-) TimerEvent: {}
+[7.870835] (-) TimerEvent: {}
+[7.971516] (-) TimerEvent: {}
+[8.072161] (-) TimerEvent: {}
+[8.172856] (-) TimerEvent: {}
+[8.258005] (test_urdf) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.273106] (-) TimerEvent: {}
+[8.373694] (-) TimerEvent: {}
+[8.379216] (test_urdf) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.466511] (test_urdf) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[8.470579] (test_urdf) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>\n'}
+[8.471478] (test_urdf) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[8.471911] (test_urdf) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[8.473935] (-) TimerEvent: {}
+[8.477673] (test_urdf) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[8.478574] (test_urdf) StderrLine: {'line': b'  execute_process(/home/osinachi/miniforgeexport/bin/python3\n'}
+[8.478913] (test_urdf) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[8.479158] (test_urdf) StderrLine: {'line': b'  /home/osinachi/foxy_ws/src/test_urdf/package.xml\n'}
+[8.479393] (test_urdf) StderrLine: {'line': b'  /home/osinachi/foxy_ws/src/build/test_urdf/ament_cmake_core/package.cmake)\n'}
+[8.479628] (test_urdf) StderrLine: {'line': b'  returned error code 1\n'}
+[8.479857] (test_urdf) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.480086] (test_urdf) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[8.480335] (test_urdf) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[8.480595] (test_urdf) StderrLine: {'line': b'  CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)\n'}
+[8.480979] (test_urdf) StderrLine: {'line': b'\n'}
+[8.481213] (test_urdf) StderrLine: {'line': b'\n'}
+[8.481641] (test_urdf) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.482008] (test_urdf) StdoutLine: {'line': b'See also "/home/osinachi/foxy_ws/src/build/test_urdf/CMakeFiles/CMakeOutput.log".\n'}
+[8.493147] (test_urdf) JobEnded: {'identifier': 'test_urdf', 'rc': 'SIGINT'}
+[8.505283] (-) EventReactorShutdown: {}

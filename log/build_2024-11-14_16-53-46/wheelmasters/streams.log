@@ -1,0 +1,17 @@
+[3.656s] Invoking command in '/home/osinachi/foxy_ws/build/wheelmasters': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data
+[4.340s] running develop
+[4.687s] running egg_info
+[4.688s] writing wheelmasters.egg-info/PKG-INFO
+[4.688s] writing dependency_links to wheelmasters.egg-info/dependency_links.txt
+[4.689s] writing entry points to wheelmasters.egg-info/entry_points.txt
+[4.690s] writing requirements to wheelmasters.egg-info/requires.txt
+[4.690s] writing top-level names to wheelmasters.egg-info/top_level.txt
+[4.776s] reading manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[4.777s] writing manifest file 'wheelmasters.egg-info/SOURCES.txt'
+[4.878s] running build_ext
+[4.879s] Creating /home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages/wheelmasters.egg-link (link to .)
+[4.881s] 
+[4.882s] Installed /home/osinachi/foxy_ws/build/wheelmasters
+[4.882s] running install_data
+[4.882s] copying launch/wheelmasters.launch.py -> /home/osinachi/foxy_ws/install/wheelmasters/share/wheelmasters
+[5.224s] Invoked command in '/home/osinachi/foxy_ws/build/wheelmasters' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/wheelmasters/prefix_override:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/wheelmasters/build --no-deps install_data

@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.001397] (motor) JobQueued: {'identifier': 'motor', 'dependencies': OrderedDict()}
+[0.002565] (my_cpackage) JobQueued: {'identifier': 'my_cpackage', 'dependencies': OrderedDict()}
+[0.003104] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.003920] (test_urdf) JobQueued: {'identifier': 'test_urdf', 'dependencies': OrderedDict()}
+[0.004308] (wheelmasters) JobQueued: {'identifier': 'wheelmasters', 'dependencies': OrderedDict()}
+[0.004454] (motor) JobStarted: {'identifier': 'motor'}
+[0.099389] (-) TimerEvent: {}
+[0.208142] (-) TimerEvent: {}
+[0.314126] (-) TimerEvent: {}
+[0.424017] (-) TimerEvent: {}
+[0.531744] (-) TimerEvent: {}
+[0.634832] (-) TimerEvent: {}
+[0.738655] (-) TimerEvent: {}
+[0.841573] (-) TimerEvent: {}
+[0.948562] (-) TimerEvent: {}
+[1.050672] (-) TimerEvent: {}
+[1.081990] (my_cpackage) JobStarted: {'identifier': 'my_cpackage'}
+[1.151333] (-) TimerEvent: {}
+[1.254698] (-) TimerEvent: {}
+[1.357033] (-) TimerEvent: {}
+[1.465749] (-) TimerEvent: {}
+[1.580100] (-) TimerEvent: {}
+[1.687899] (-) TimerEvent: {}
+[1.800218] (-) TimerEvent: {}
+[1.907633] (-) TimerEvent: {}
+[2.013114] (-) TimerEvent: {}
+[2.114353] (-) TimerEvent: {}
+[2.217949] (-) TimerEvent: {}
+[2.316341] (my_package) JobStarted: {'identifier': 'my_package'}
+[2.324394] (-) TimerEvent: {}
+[2.428451] (-) TimerEvent: {}
+[2.539621] (-) TimerEvent: {}
+[2.642825] (-) TimerEvent: {}
+[2.747181] (-) TimerEvent: {}
+[2.847936] (-) TimerEvent: {}
+[2.950684] (-) TimerEvent: {}
+[3.052625] (-) TimerEvent: {}
+[3.154685] (-) TimerEvent: {}
+[3.256133] (-) TimerEvent: {}
+[3.370235] (-) TimerEvent: {}
+[3.471691] (-) TimerEvent: {}
+[3.584405] (-) TimerEvent: {}
+[3.629875] (test_urdf) JobStarted: {'identifier': 'test_urdf'}
+[3.688239] (-) TimerEvent: {}
+[3.792054] (-) TimerEvent: {}
+[3.952963] (-) TimerEvent: {}
+[4.056403] (-) TimerEvent: {}
+[4.163709] (-) TimerEvent: {}
+[4.267396] (-) TimerEvent: {}
+[4.372685] (-) TimerEvent: {}
+[4.476784] (-) TimerEvent: {}
+[4.588672] (-) TimerEvent: {}
+[4.690528] (-) TimerEvent: {}
+[4.800038] (-) TimerEvent: {}
+[4.905818] (-) TimerEvent: {}
+[5.015723] (-) TimerEvent: {}
+[5.128263] (-) TimerEvent: {}
+[5.233218] (-) TimerEvent: {}
+[5.351859] (-) TimerEvent: {}
+[5.474598] (-) TimerEvent: {}
+[5.520157] (motor) JobProgress: {'identifier': 'motor', 'progress': 'cmake'}
+[5.522948] (motor) JobProgress: {'identifier': 'motor', 'progress': 'build'}
+[5.526936] (motor) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osinachi/foxy_ws/build/motor', '--', '-j4', '-l4'], 'cwd': '/home/osinachi/foxy_ws/build/motor', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'osinachi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/osinachi'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/osinachi/foxy_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osinachi/foxy_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'osinachi'), ('NAME', 'DESKTOP-19OSI'), ('WSL_INTEROP', '/run/WSL/584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/osinachi/.local/bin:/home/osinachi/miniforgeexport/bin:/home/osinachi/miniforgeexport/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311:/mnt/c/dev/flutter/bin:/mnt/c/Users/osinachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/osinachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/tools/dart-sdk/bin:/mnt/c/Users/osinachi/AppData/Local/Pub/Cache/bin:/mnt/c/MinGW/bin:/mnt/c/ffmpeg_apps:/mnt/c/Program Files/Java/jdk-17/bin:/snap/bin'), ('WT_SESSION', '45a6fd89-1ba6-4a38-aec4-9a80f720dc14'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XML_CATALOG_FILES', 'file:///home/osinachi/miniforgeexport/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/my_package:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/osinachi/miniforgeexport/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/osinachi/foxy_ws/build/motor'), ('CONDA_EXE', '/home/osinachi/miniforgeexport/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osinachi/foxy_ws/build/wheelmasters:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:/home/osinachi/foxy_ws/build/my_package:/home/osinachi/foxy_ws/install/my_package/lib/python3.8/site-packages:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/osinachi/miniforgeexport'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[5.575344] (my_cpackage) JobProgress: {'identifier': 'my_cpackage', 'progress': 'cmake'}
+[5.575714] (-) TimerEvent: {}
+[5.590753] (my_cpackage) Command: {'cmd': ['/usr/bin/cmake', '/home/osinachi/foxy_ws/src/my_cpackage', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/install/my_cpackage'], 'cwd': '/home/osinachi/foxy_ws/build/my_cpackage', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'osinachi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/osinachi'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/osinachi/foxy_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osinachi/foxy_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'osinachi'), ('NAME', 'DESKTOP-19OSI'), ('WSL_INTEROP', '/run/WSL/584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/osinachi/.local/bin:/home/osinachi/miniforgeexport/bin:/home/osinachi/miniforgeexport/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311:/mnt/c/dev/flutter/bin:/mnt/c/Users/osinachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/osinachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/tools/dart-sdk/bin:/mnt/c/Users/osinachi/AppData/Local/Pub/Cache/bin:/mnt/c/MinGW/bin:/mnt/c/ffmpeg_apps:/mnt/c/Program Files/Java/jdk-17/bin:/snap/bin'), ('WT_SESSION', '45a6fd89-1ba6-4a38-aec4-9a80f720dc14'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XML_CATALOG_FILES', 'file:///home/osinachi/miniforgeexport/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/my_package:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/osinachi/miniforgeexport/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/osinachi/foxy_ws/build/my_cpackage'), ('CONDA_EXE', '/home/osinachi/miniforgeexport/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osinachi/foxy_ws/build/wheelmasters:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:/home/osinachi/foxy_ws/build/my_package:/home/osinachi/foxy_ws/install/my_package/lib/python3.8/site-packages:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/osinachi/miniforgeexport'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[5.676583] (-) TimerEvent: {}
+[5.783203] (-) TimerEvent: {}
+[5.889430] (-) TimerEvent: {}
+[5.991583] (-) TimerEvent: {}
+[6.092768] (-) TimerEvent: {}
+[6.194146] (-) TimerEvent: {}
+[6.303595] (-) TimerEvent: {}
+[6.410022] (-) TimerEvent: {}
+[6.511757] (-) TimerEvent: {}
+[6.612509] (-) TimerEvent: {}
+[6.713196] (-) TimerEvent: {}
+[6.814207] (-) TimerEvent: {}
+[6.914895] (-) TimerEvent: {}
+[7.015782] (-) TimerEvent: {}
+[7.116772] (-) TimerEvent: {}
+[7.217916] (-) TimerEvent: {}
+[7.318995] (-) TimerEvent: {}
+[7.420257] (-) TimerEvent: {}
+[7.521642] (-) TimerEvent: {}
+[7.622873] (-) TimerEvent: {}
+[7.723819] (-) TimerEvent: {}
+[7.825100] (-) TimerEvent: {}
+[7.926594] (-) TimerEvent: {}
+[8.027394] (-) TimerEvent: {}
+[8.135315] (-) TimerEvent: {}
+[8.236238] (-) TimerEvent: {}
+[8.337128] (-) TimerEvent: {}
+[8.438465] (-) TimerEvent: {}
+[8.539360] (-) TimerEvent: {}
+[8.646438] (-) TimerEvent: {}
+[8.756081] (-) TimerEvent: {}
+[8.858521] (-) TimerEvent: {}
+[8.959356] (-) TimerEvent: {}
+[9.064423] (-) TimerEvent: {}
+[9.167531] (-) TimerEvent: {}
+[9.272506] (-) TimerEvent: {}
+[9.323285] (test_urdf) JobProgress: {'identifier': 'test_urdf', 'progress': 'cmake'}
+[9.326011] (test_urdf) JobProgress: {'identifier': 'test_urdf', 'progress': 'build'}
+[9.329997] (test_urdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/osinachi/foxy_ws/build/test_urdf', '--', '-j4', '-l4'], 'cwd': '/home/osinachi/foxy_ws/build/test_urdf', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'osinachi'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/osinachi'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/osinachi/foxy_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_CE_M', ''), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/osinachi/foxy_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'osinachi'), ('NAME', 'DESKTOP-19OSI'), ('WSL_INTEROP', '/run/WSL/584_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/osinachi/.local/bin:/home/osinachi/miniforgeexport/bin:/home/osinachi/miniforgeexport/condabin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0:/mnt/c/Windows/System32/OpenSSH:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn:/mnt/c/Program Files/dotnet:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/MinGW/bin:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Git/cmd:/mnt/c/Python312/Scripts:/mnt/c/Python312:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311/Scripts:/mnt/c/Users/osinachi/AppData/Local/Programs/Python/Python311:/mnt/c/dev/flutter/bin:/mnt/c/Users/osinachi/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/osinachi/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/tools/dart-sdk/bin:/mnt/c/Users/osinachi/AppData/Local/Pub/Cache/bin:/mnt/c/MinGW/bin:/mnt/c/ffmpeg_apps:/mnt/c/Program Files/Java/jdk-17/bin:/snap/bin'), ('WT_SESSION', '45a6fd89-1ba6-4a38-aec4-9a80f720dc14'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XML_CATALOG_FILES', 'file:///home/osinachi/miniforgeexport/etc/xml/catalog file:///etc/xml/catalog'), ('AMENT_PREFIX_PATH', '/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/my_package:/home/osinachi/foxy_ws/install/motor:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/osinachi/miniforgeexport/bin/python'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('PWD', '/home/osinachi/foxy_ws/build/test_urdf'), ('CONDA_EXE', '/home/osinachi/miniforgeexport/bin/conda'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/osinachi/foxy_ws/build/wheelmasters:/home/osinachi/foxy_ws/install/wheelmasters/lib/python3.8/site-packages:/home/osinachi/foxy_ws/build/my_package:/home/osinachi/foxy_ws/install/my_package/lib/python3.8/site-packages:/home/osinachi/foxy_ws/install/motor/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('CONDA_PREFIX', '/home/osinachi/miniforgeexport'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/osinachi/foxy_ws/install/test_urdf:/home/osinachi/foxy_ws/install/motor:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:')]), 'shell': False}
+[9.348177] (my_cpackage) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[9.352555] (my_cpackage) StderrLine: {'line': b'  File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>\n'}
+[9.355829] (my_cpackage) StderrLine: {'line': b'    from catkin_pkg.package import parse_package_string\n'}
+[9.358885] (my_cpackage) StderrLine: {'line': b"ModuleNotFoundError: No module named 'catkin_pkg'\n"}
+[9.365977] (my_cpackage) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):\n'}
+[9.367804] (my_cpackage) StderrLine: {'line': b'  execute_process(/home/osinachi/miniforgeexport/bin/python3\n'}
+[9.368523] (my_cpackage) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[9.369191] (my_cpackage) StderrLine: {'line': b'  /home/osinachi/foxy_ws/src/my_cpackage/package.xml\n'}
+[9.369866] (my_cpackage) StderrLine: {'line': b'  /home/osinachi/foxy_ws/build/my_cpackage/ament_cmake_core/package.cmake)\n'}
+[9.370261] (my_cpackage) StderrLine: {'line': b'  returned error code 1\n'}
+[9.370678] (my_cpackage) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[9.371026] (my_cpackage) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[9.371341] (my_cpackage) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[9.371660] (my_cpackage) StderrLine: {'line': b'  CMakeLists.txt:40 (ament_lint_auto_find_test_dependencies)\n'}
+[9.371963] (my_cpackage) StderrLine: {'line': b'\n'}
+[9.372261] (my_cpackage) StderrLine: {'line': b'\n'}
+[9.372546] (-) TimerEvent: {}
+[9.373629] (my_cpackage) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[9.374370] (my_cpackage) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/osinachi/miniforgeexport/bin/python3\n'}
+[9.374778] (my_cpackage) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.381162] (my_cpackage) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.386240] (my_cpackage) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.386592] (my_cpackage) StdoutLine: {'line': b'See also "/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/CMakeOutput.log".\n'}
+[9.387257] (motor) CommandEnded: {'returncode': 0}
+[9.391959] (my_cpackage) CommandEnded: {'returncode': 1}
+[9.475704] (-) TimerEvent: {}
+[9.578695] (-) TimerEvent: {}
+[9.688355] (-) TimerEvent: {}
+[9.794275] (-) TimerEvent: {}
+[9.907130] (-) TimerEvent: {}
+[10.010414] (-) TimerEvent: {}
+[10.064438] (my_cpackage) JobEnded: {'identifier': 'my_cpackage', 'rc': 1}
+[10.075961] (motor) JobEnded: {'identifier': 'motor', 'rc': 'SIGINT'}
+[10.078647] (test_urdf) JobEnded: {'identifier': 'test_urdf', 'rc': 'SIGINT'}
+[10.110734] (-) TimerEvent: {}
+[10.212112] (-) TimerEvent: {}
+[10.313120] (-) TimerEvent: {}
+[10.414065] (-) TimerEvent: {}
+[10.514859] (-) TimerEvent: {}
+[10.616073] (-) TimerEvent: {}
+[10.717520] (-) TimerEvent: {}
+[10.818324] (-) TimerEvent: {}
+[10.919206] (-) TimerEvent: {}
+[11.020490] (-) TimerEvent: {}
+[11.121325] (-) TimerEvent: {}
+[11.222667] (-) TimerEvent: {}
+[11.303007] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 'SIGINT'}
+[11.310014] (wheelmasters) JobSkipped: {'identifier': 'wheelmasters'}
+[11.310250] (-) EventReactorShutdown: {}

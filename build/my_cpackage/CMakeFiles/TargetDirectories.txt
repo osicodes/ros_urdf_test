@@ -1,0 +1,10 @@
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/install/strip.dir
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/install/local.dir
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/install.dir
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/list_install_components.dir
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/rebuild_cache.dir
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/edit_cache.dir
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/test.dir
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/my_cpackage_uninstall.dir
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/my_node.dir
+/home/osinachi/foxy_ws/build/my_cpackage/CMakeFiles/uninstall.dir

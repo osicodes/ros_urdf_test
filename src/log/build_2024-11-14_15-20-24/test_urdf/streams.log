@@ -1,0 +1,38 @@
+[2.196s] Invoking command in '/home/osinachi/foxy_ws/src/build/test_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/osinachi/foxy_ws/install/wheelmasters:/home/osinachi/foxy_ws/install/my_package:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/osinachi/foxy_ws/src/test_urdf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/osinachi/foxy_ws/src/install/test_urdf
+[2.632s] -- The C compiler identification is GNU 9.4.0
+[3.163s] -- The CXX compiler identification is GNU 9.4.0
+[3.443s] -- Check for working C compiler: /usr/bin/cc
+[3.870s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.871s] -- Detecting C compiler ABI info
+[4.354s] -- Detecting C compiler ABI info - done
+[4.445s] -- Detecting C compile features
+[4.445s] -- Detecting C compile features - done
+[4.472s] -- Check for working CXX compiler: /usr/bin/c++
+[5.217s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.217s] -- Detecting CXX compiler ABI info
+[5.944s] -- Detecting CXX compiler ABI info - done
+[6.002s] -- Detecting CXX compile features
+[6.004s] -- Detecting CXX compile features - done
+[6.022s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.146s] -- Found PythonInterp: /home/osinachi/miniforgeexport/bin/python3 (found suitable version "3.10.13", minimum required is "3") 
+[6.146s] -- Using PYTHON_EXECUTABLE: /home/osinachi/miniforgeexport/bin/python3
+[6.969s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.090s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.177s] Traceback (most recent call last):
+[7.181s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[7.182s]     from catkin_pkg.package import parse_package_string
+[7.182s] ModuleNotFoundError: No module named 'catkin_pkg'
+[7.189s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[7.189s]   execute_process(/home/osinachi/miniforgeexport/bin/python3
+[7.189s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[7.189s]   /home/osinachi/foxy_ws/src/test_urdf/package.xml
+[7.190s]   /home/osinachi/foxy_ws/src/build/test_urdf/ament_cmake_core/package.cmake)
+[7.190s]   returned error code 1
+[7.190s] Call Stack (most recent call first):
+[7.190s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[7.191s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[7.191s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[7.191s] 
+[7.192s] 
+[7.192s] -- Configuring incomplete, errors occurred!
+[7.192s] See also "/home/osinachi/foxy_ws/src/build/test_urdf/CMakeFiles/CMakeOutput.log".

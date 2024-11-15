@@ -1,0 +1,17 @@
+[3.488s] Invoking command in '/home/osinachi/foxy_ws/build/my_package': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/my_package/prefix_override:/home/osinachi/foxy_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/my_package/build --no-deps install_data
+[4.682s] running develop
+[4.683s] running egg_info
+[4.684s] writing my_package.egg-info/PKG-INFO
+[4.689s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[4.691s] writing entry points to my_package.egg-info/entry_points.txt
+[4.692s] writing requirements to my_package.egg-info/requires.txt
+[4.693s] writing top-level names to my_package.egg-info/top_level.txt
+[4.754s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[4.758s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[4.863s] running build_ext
+[4.863s] Creating /home/osinachi/foxy_ws/install/my_package/lib/python3.8/site-packages/my-package.egg-link (link to .)
+[4.868s] Installing my_node script to /home/osinachi/foxy_ws/install/my_package/lib/my_package
+[4.879s] 
+[4.887s] Installed /home/osinachi/foxy_ws/build/my_package
+[4.889s] running install_data
+[5.919s] Invoked command in '/home/osinachi/foxy_ws/build/my_package' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/osinachi/foxy_ws/build/my_package/prefix_override:/home/osinachi/foxy_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/osinachi/foxy_ws/build/my_package/build --no-deps install_data

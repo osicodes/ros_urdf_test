@@ -1,0 +1,16 @@
+/home/osinachi/foxy_ws/install/my_cpackage/lib/my_cpackage/my_node
+/home/osinachi/foxy_ws/install/my_cpackage/share/ament_index/resource_index/package_run_dependencies/my_cpackage
+/home/osinachi/foxy_ws/install/my_cpackage/share/ament_index/resource_index/parent_prefix_path/my_cpackage
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/environment/ament_prefix_path.sh
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/environment/ament_prefix_path.dsv
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/environment/path.sh
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/environment/path.dsv
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/local_setup.bash
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/local_setup.sh
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/local_setup.zsh
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/local_setup.dsv
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/package.dsv
+/home/osinachi/foxy_ws/install/my_cpackage/share/ament_index/resource_index/packages/my_cpackage
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/cmake/my_cpackageConfig.cmake
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/cmake/my_cpackageConfig-version.cmake
+/home/osinachi/foxy_ws/install/my_cpackage/share/my_cpackage/package.xml

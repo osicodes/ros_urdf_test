@@ -310,8 +310,8 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install(DIRECTORY "description" "launch" "DESTINATION" "share/motor")
-ament_cmake_symlink_install_directory("/home/osinachi/foxy_ws/src/motor" DIRECTORY "description" "launch" "DESTINATION" "share/motor")
+# install(DIRECTORY "description" "launch" "config" "DESTINATION" "share/motor")
+ament_cmake_symlink_install_directory("/home/osinachi/foxy_ws/src/motor" DIRECTORY "description" "launch" "config" "DESTINATION" "share/motor")
 
 # install(FILES "/home/osinachi/foxy_ws/build/motor/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/motor" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/osinachi/foxy_ws/src/motor" FILES "/home/osinachi/foxy_ws/build/motor/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/motor" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
